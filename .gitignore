@@ -1,3 +1,8 @@
+# Team config files
+lakna_config.py
+foluke_config.py
+alyssa_config.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
