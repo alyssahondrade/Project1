@@ -1,3 +1,7 @@
+# Large dataset file names
+RAW_interactions.csv
+RAW_recipes.csv
+
 # Team config files
 lakna_config.py
 foluke_config.py
