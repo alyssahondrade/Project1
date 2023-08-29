@@ -1,0 +1,34 @@
+ID,Name,Likes,Meal Type,Cuisines,N_ingredients,Calories (Amount),Calories (Unit),Calories (% of Daily Needs),Saturated Fat (Amount),Saturated Fat (Unit),Saturated Fat (% of Daily Needs),Sugar (Amount),Sugar (Unit),Sugar (% of Daily Needs),Sodium (Amount),Sodium (Unit),Sodium (% of Daily Needs),Protein (Amount),Protein (Unit),Protein (% of Daily Needs)
+782585,Cannellini Bean and Asparagus Salad with Mushrooms,309,"['side dish', 'lunch', 'main course', 'salad', 'main dish', 'dinner']",[],13,488.93,kcal,24.45,1.04,g,6.49,4.29,g,4.76,421.7,mg,18.33,32.02,g,64.03
+716426,"Cauliflower, Brown Rice, and Vegetable Fried Rice",3689,"['side dish', 'antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]","['Chinese', 'Asian']",15,220.82,kcal,11.04,1.12,g,6.99,5.29,g,5.87,445.9,mg,19.39,9.03,g,18.05
+715497,Berry Banana Breakfast Smoothie,689,"['morning meal', 'brunch', 'beverage', 'breakfast', 'drink']",[],5,457.05,kcal,22.85,2.7,g,16.88,52.28,g,58.09,400.9,mg,17.43,20.62,g,41.25
+715415,Red Lentil Soup with Chicken and Turnips,1866,"['lunch', 'soup', 'main course', 'main dish', 'dinner']",[],13,477.24,kcal,23.86,3.1,g,19.37,10.55,g,11.72,1335.78,mg,58.08,26.93,g,53.86
+716406,Asparagus and Pea Soup: Real Convenience Food,207,"['antipasti', 'soup', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],8,452.33,kcal,22.62,1.33,g,8.34,27.99,g,31.1,25.76,mg,1.12,26.56,g,53.12
+644387,Garlicky Kale,19,['side dish'],[],4,169.87,kcal,8.49,2.05,g,12.81,4.12,g,4.58,40.51,mg,1.76,2.11,g,4.22
+715446,Slow Cooker Beef Stew,57,"['lunch', 'soup', 'main course', 'main dish', 'dinner']",[],10,433.82,kcal,21.69,4.47,g,27.93,3.49,g,3.87,1253.65,mg,54.51,44.24,g,88.48
+782601,Red Kidney Bean Jambalaya,53,"['lunch', 'main course', 'main dish', 'dinner']","['Creole', 'Cajun']",20,392.8,kcal,19.64,0.96,g,5.99,10.19,g,11.32,1111.47,mg,48.32,18.13,g,36.26
+795751,Chicken Fajita Stuffed Bell Pepper,159,"['lunch', 'main course', 'main dish', 'dinner']",['Mexican'],12,546.71,kcal,27.34,7.76,g,48.51,11.02,g,12.25,750.99,mg,32.65,50.8,g,101.6
+766453,Hummus and Za'atar,35,"['seasoning', 'marinade']",['Middle Eastern'],9,778.28,kcal,38.91,3.74,g,23.39,17.05,g,18.95,918.24,mg,39.92,33.75,g,67.51
+716627,Easy Homemade Rice and Beans,471,"['side dish', 'lunch', 'main course', 'main dish', 'dinner']",[],10,445.69,kcal,22.28,0.7,g,4.35,7.35,g,8.17,1058.31,mg,46.01,19.14,g,38.29
+664147,Tuscan White Bean Soup with Olive Oil and Rosemary,22,"['lunch', 'soup', 'main course', 'main dish', 'dinner']",[],8,242.41,kcal,12.12,0.26,g,1.62,2.23,g,2.48,206.16,mg,8.96,16.13,g,32.27
+640941,Crunchy Brussels Sprouts Side Dish,26,['side dish'],[],7,231.8,kcal,11.59,2.03,g,12.66,5.33,g,5.92,64.76,mg,2.82,7.94,g,15.89
+715495,Turkey Tomato Cheese Pizza,910,"['antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]","['Mediterranean', 'Italian', 'European']",11,259.88,kcal,12.99,2.96,g,18.48,14.47,g,16.08,791.93,mg,34.43,15.09,g,30.19
+794349,Broccoli and Chickpea Rice Salad,44,"['side dish', 'lunch', 'main course', 'salad', 'main dish', 'dinner']",[],17,354.78,kcal,17.74,1.19,g,7.44,9.29,g,10.32,791.28,mg,34.4,15.15,g,30.29
+716381,Nigerian Snail Stew,361,"['lunch', 'soup', 'main course', 'main dish', 'dinner']",[],12,374.43,kcal,18.72,0.86,g,5.39,33.7,g,37.44,14106.87,mg,613.34,24.41,g,48.82
+660306,Slow Cooker: Pork and Garbanzo Beans,22,"['lunch', 'main course', 'main dish', 'dinner']",[],8,586.78,kcal,29.34,3.34,g,20.85,8.63,g,9.59,914.69,mg,39.77,65.78,g,131.56
+756814,Powerhouse Almond Matcha Superfood Smoothie,80,"['morning meal', 'brunch', 'beverage', 'breakfast', 'drink']",[],10,387.47,kcal,19.37,1.63,g,10.19,20.94,g,23.27,266.1,mg,11.57,0.34,g,1.91
+715769,Broccolini Quinoa Pilaf,94,"['side dish', 'lunch', 'main course', 'main dish', 'dinner']","['Mediterranean', 'Italian', 'European']",7,625.07,kcal,31.25,3.32,g,20.76,6.45,g,7.16,971.81,mg,42.25,19.85,g,39.69
+642129,Easy To Make Spring Rolls,22,"['fingerfood', 'antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]","['Vietnamese', 'Asian']",17,162.3,kcal,8.12,0.14,g,0.86,9.94,g,11.04,1245.27,mg,54.14,13.41,g,26.82
+642605,Farro With Mushrooms and Asparagus,47,['side dish'],[],10,365.28,kcal,18.26,1.57,g,9.82,5.8,g,6.45,376.22,mg,16.36,12.3,g,24.59
+636589,Butternut Squash Frittata,18,"['lunch', 'main course', 'morning meal', 'brunch', 'main dish', 'breakfast', 'dinner']",[],6,481.46,kcal,24.07,2.33,g,14.54,26.8,g,29.78,339.22,mg,14.75,24.63,g,49.26
+646738,Herbivoracious' White Bean and Kale Soup,10,"['lunch', 'soup', 'main course', 'main dish', 'dinner']",[],12,331.54,kcal,16.58,1.45,g,9.04,3.03,g,3.37,432.44,mg,18.8,16.99,g,33.98
+715540,Summer Berry Salad,17,"['side dish', 'antipasti', 'salad', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],5,97.95,kcal,4.9,0.16,g,1.02,14.63,g,16.25,8.89,mg,0.39,2.19,g,4.37
+663559,Tomato and lentil soup,11,"['lunch', 'soup', 'main course', 'main dish', 'dinner']",[],10,340.11,kcal,17.01,1.13,g,7.08,7.6,g,8.44,377.99,mg,16.43,18.31,g,36.62
+662670,Swiss Chard Wraps,14,['side dish'],[],11,137.29,kcal,6.86,1.64,g,10.24,2.75,g,3.05,116.2,mg,5.05,3.63,g,7.25
+640062,Corn Avocado Salsa,44,"['antipasti', 'condiment', 'starter', 'snack', 'appetizer', 'dip', 'antipasto', ""hor d'oeuvre"", 'spread']",['Mexican'],6,237.36,kcal,11.87,2.25,g,14.06,2.32,g,2.58,13.83,mg,0.6,4.62,g,9.24
+715421,Cheesy Chicken Enchilada Quinoa Casserole,9912,"['side dish', 'lunch', 'main course', 'main dish', 'dinner']",['Mexican'],17,622.45,kcal,31.12,9.04,g,56.52,19.29,g,21.43,2324.08,mg,101.05,35.42,g,70.83
+648320,Jade Buddha Salmon Tartare,28,"['lunch', 'main course', 'main dish', 'dinner']",[],13,382.72,kcal,19.14,3.62,g,22.61,1.01,g,1.12,271.36,mg,11.8,34.28,g,68.56
+716432,Finger Foods: Frittata Muffins #incredibleEGG,601,"['morning meal', 'brunch', 'breakfast']",[],8,654.73,kcal,32.74,19.26,g,120.36,5.84,g,6.49,964.99,mg,41.96,49.45,g,98.89
+798400,Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant,32,"['antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]","['Indian', 'Asian']",15,128.72,kcal,6.44,0.34,g,2.12,7.24,g,8.05,551.5,mg,23.98,6.73,g,13.46
+782600,Quinoa Salad with Vegetables and Cashews,88,"['side dish', 'antipasti', 'salad', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],15,309.29,kcal,15.46,3.39,g,21.2,4.23,g,4.7,37.25,mg,1.62,6.9,g,13.8
+652417,Moroccan chickpea and lentil stew,11,"['lunch', 'soup', 'main course', 'main dish', 'dinner']",[],16,465.29,kcal,23.26,0.93,g,5.84,5.03,g,5.59,758.7,mg,32.99,20.02,g,40.05
