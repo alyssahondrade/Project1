@@ -1,0 +1,101 @@
+ID,Name,Likes,Meal Type,Cuisines,N_ingredients,WW Smart Points,Calories (Amount),Calories (Unit),Calories (% of Daily Needs),Saturated Fat (Amount),Saturated Fat (Unit),Saturated Fat (% of Daily Needs),Sugar (Amount),Sugar (Unit),Sugar (% of Daily Needs),Sodium (Amount),Sodium (Unit),Sodium (% of Daily Needs),Protein (Amount),Protein (Unit),Protein (% of Daily Needs),Carbohydrates
+665822,{No Bake} Cinnamon Butterscotch Energy Bites,2,['side dish'],[],10,9,283.16,kcal,14.16,3.46,g,21.64,14.33,g,15.93,154.21,mg,6.7,10.27,g,20.53,25g
+637458,Charlotte Potato Salad,12,['side dish'],[],8,8,258.67,kcal,12.93,3.8,g,23.72,1.18,g,1.31,147.23,mg,6.4,5.09,g,10.18,22g
+649827,"Lemon, Garlic and Thyme Roast Chicken – Quick and Easy Method",3,"['lunch', 'main course', 'main dish', 'dinner']",[],7,13,428.77,kcal,21.44,9.81,g,61.34,0.24,g,0.26,312.76,mg,13.6,22.73,g,45.47,2g
+649292,Lasagne Roll Ups,2,"['antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]","['Mediterranean', 'Italian', 'European']",19,18,570.52,kcal,28.53,14.69,g,91.83,9.82,g,10.91,850.15,mg,36.96,28.18,g,56.37,59g
+641912,Easy Chicken with White Wine Sauce,36,"['lunch', 'main course', 'main dish', 'dinner']",[],6,5,248.03,kcal,12.4,1.3,g,8.1,1.07,g,1.19,170.26,mg,7.4,6.18,g,34.33,3g
+660697,Southern Fried Catfish,39,"['lunch', 'main course', 'main dish', 'dinner']",['Southern'],6,16,789.25,kcal,39.46,6.68,g,41.77,0.33,g,0.36,1227.89,mg,53.39,100.79,g,201.57,18g
+633080,Authentic Kentucky Bourbon Balls,3,"['antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",['Southern'],6,2,64.32,kcal,3.22,0.37,g,2.29,7.81,g,8.68,12.66,mg,0.55,0.56,g,3.09,9g
+639631,Classic Pumpkin Pie,2,[],[],9,13,326.56,kcal,16.33,6.1,g,38.12,29.31,g,32.57,380.01,mg,16.52,7.84,g,15.69,44g
+648408,Jamaican Jerk Rub And Seasoning,2,"['seasoning', 'marinade']",[],12,2,73.14,kcal,3.66,0.42,g,2.63,0.76,g,0.84,4666.89,mg,202.91,3.67,g,7.33,14g
+664501,Vegan Taco bowls with Cilantro Lime Cauliflower Rice,6,"['lunch', 'main course', 'main dish', 'dinner']",['Mexican'],13,15,529.49,kcal,26.47,5.14,g,32.13,6.08,g,6.75,628.91,mg,27.34,12.64,g,25.27,22g
+638071,Chicken En Papillote With Basil and Cherry Tomatoes,26,"['lunch', 'main course', 'main dish', 'dinner']",[],11,11,435.03,kcal,21.75,4.54,g,28.36,3.73,g,4.14,336.76,mg,14.64,3.09,g,17.17,8g
+664533,Vegetable Cheddar Quiche,2,"['antipasti', 'morning meal', 'starter', 'brunch', 'snack', 'appetizer', 'breakfast', 'antipasto', ""hor d'oeuvre""]","['Mediterranean', 'French', 'European']",20,9,573.51,kcal,28.68,11.76,g,73.49,2.15,g,2.39,687.58,mg,29.89,11.08,g,22.16,46g
+715497,Berry Banana Breakfast Smoothie,689,"['morning meal', 'brunch', 'beverage', 'breakfast', 'drink']",[],5,15,457.05,kcal,22.85,2.7,g,16.88,52.28,g,58.09,400.9,mg,17.43,20.62,g,41.25,73g
+648524,Jean's Seafood Gumbo,6,"['lunch', 'soup', 'main course', 'main dish', 'dinner']","['Creole', 'Cajun']",23,10,524.07,kcal,26.2,5.48,g,34.26,4.39,g,4.88,1830.99,mg,79.61,67.59,g,135.17,20g
+1155776,Easy Homemade Chocolate Truffles,2,"['antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],4,11,222.46,kcal,11.12,6.87,g,42.91,23.32,g,25.91,32.25,mg,1.4,19.35,mg,6.45,27g
+650255,Lobster Macaroni and Cheese,2,"['side dish', 'lunch', 'main course', 'main dish', 'dinner']",['American'],10,28,994.9,kcal,49.75,23.81,g,148.8,7.55,g,8.39,869.86,mg,37.82,40.82,g,81.64,95g
+652393,Moosewood Lentil Soup,2,"['lunch', 'soup', 'main course', 'main dish', 'dinner']",[],15,9,403.93,kcal,20.2,0.42,g,2.63,8.8,g,9.78,232.2,mg,10.1,25.65,g,51.3,68g
+640828,Crispy Panko and Herb Crusted Salmon,4,"['lunch', 'main course', 'main dish', 'dinner']",[],13,9,392.88,kcal,19.64,3.3,g,20.62,2.56,g,2.85,377.45,mg,16.41,32.67,g,65.33,14g
+648475,Japanese Gyoza Pot Stickers,2,"['antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]","['Chinese', 'Asian']",13,14,463.64,kcal,23.18,7.74,g,48.4,1.14,g,1.26,1269.81,mg,55.21,0.26,g,1.44,8g
+655515,Pecan Pie,4,['dessert'],['Southern'],8,45,949.26,kcal,47.46,18.01,g,112.53,108.44,g,120.48,328.37,mg,14.28,8.57,g,17.13,141g
+640461,Crawfish Cake Sliders,15,"['fingerfood', 'antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],9,5,188.05,kcal,9.4,0.67,g,4.22,3.27,g,3.64,93.3,mg,4.06,9.55,g,19.09,22g
+632629,Apple-Walnut Crisp,2,['dessert'],[],14,50,1456.16,kcal,72.81,32.06,g,200.38,153.66,g,170.74,404.23,mg,17.58,12.31,g,24.61,212g
+651757,Meyer Lemon Cheesecake,31,['dessert'],[],10,25,562.15,kcal,28.11,23.52,g,147.03,25.79,g,28.65,472.35,mg,20.54,10.12,g,20.25,38g
+649808,Lemon Thumbprint Cookies,9,['dessert'],[],8,3,74.46,kcal,3.72,1.53,g,9.59,5.65,g,6.28,57.86,mg,2.52,1.2,g,2.4,11g
+665271,Whole Wheat Blueberry Brownies,3,['dessert'],['American'],14,5,137.81,kcal,6.89,1.1,g,6.87,18.63,g,20.7,186.2,mg,8.1,8.24,mg,2.75,29g
+636436,"Bulgur Pilaf With Green Lentils, Served With Caramelized Onions -Mercimekli Bulgur Pilavi",3,"['side dish', 'lunch', 'main course', 'main dish', 'dinner']",[],7,637,18931.91,kcal,946.6,264.57,g,1653.58,9.73,g,10.81,113.43,mg,4.93,93.84,g,187.69,390g
+632300,Amazing Chicken Burgers,2,"['lunch', 'main course', 'main dish', 'dinner']",['American'],8,11,416.76,kcal,20.84,7.94,g,49.64,1.76,g,1.96,1288.4,mg,56.02,36.44,g,72.89,17g
+641842,Easy Beef Bourguignon,6,"['lunch', 'main course', 'main dish', 'dinner']",[],13,11,480.57,kcal,24.03,7.1,g,44.38,14.24,g,15.83,608.22,mg,26.44,6.36,g,35.33,28g
+631879,5 Minute Xocai Chocolate Mug Cake,25,['dessert'],[],6,15,362.09,kcal,18.1,7.33,g,45.81,32.58,g,36.2,77.11,mg,3.35,18.0,mg,6.0,49g
+641435,Dessert Apple Rings With Cinnamon Cream Syrup,49,['dessert'],[],10,16,434.93,kcal,21.75,0.3,g,1.89,78.66,g,87.4,128.81,mg,5.6,0.75,g,4.14,102g
+642138,Easy Vegetable Fried Rice,13,"['side dish', 'antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]","['Chinese', 'Asian']",16,6,470.13,kcal,23.51,3.18,g,19.86,5.17,g,5.74,1064.82,mg,46.3,13.68,g,27.36,79g
+635215,Blackberry Honey Cocktail,4,"['beverage', 'drink']",[],5,8,211.21,kcal,10.56,0.01,g,0.06,19.74,g,21.93,2.65,mg,0.12,18.94,g,105.21,21g
+716369,Lemon Fish with Sweet Potatoes,3,"['antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],14,22,761.29,kcal,38.06,32.44,g,202.77,20.34,g,22.6,308.99,mg,13.43,11.15,g,22.3,89g
+637323,"Cauliflower, Leek and Cheddar Cheese Soup",5,"['lunch', 'soup', 'main course', 'main dish', 'dinner']",[],10,12,369.37,kcal,18.47,11.66,g,72.86,14.8,g,16.44,1307.54,mg,56.85,17.86,g,35.71,25g
+715380,Sweet Potato Casserole Gourmet & Holiday Baking,9473,['side dish'],['American'],9,25,573.62,kcal,28.68,14.98,g,93.6,35.2,g,39.11,241.09,mg,10.48,0.48,g,2.68,38g
+641973,Easy Garlic Roast Leg Of Lamb With Rosemary and Parsley,3,"['lunch', 'main course', 'main dish', 'dinner']",[],7,11,495.61,kcal,24.78,6.55,g,40.96,0.08,g,0.09,1054.11,mg,45.83,59.11,g,118.23,1g
+642272,Eggplant & Artichoke Heart Galettes,13,"['lunch', 'main course', 'main dish', 'dinner']",[],11,11,481.96,kcal,24.1,6.68,g,41.73,16.29,g,18.1,4160.92,mg,180.91,22.16,g,44.32,67g
+632573,Apple Pie Bars,78,['dessert'],['American'],11,5,134.33,kcal,6.72,0.58,g,3.65,16.99,g,18.88,162.89,mg,7.08,1.62,g,3.24,26g
+1022743,The Best Mashed Potatoes,2,['side dish'],[],8,8,188.52,kcal,9.43,11.09,g,69.33,2.37,g,2.63,341.93,mg,14.87,2.71,g,5.42,3g
+644690,Gingerbread Pancakes,2,"['morning meal', 'brunch', 'breakfast']",[],11,5,164.84,kcal,8.24,3.51,g,21.92,5.48,g,6.08,398.48,mg,17.33,3.69,g,7.38,24g
+640742,Crème Fraiche Coconut Bavarians,2,['side dish'],[],8,21,410.97,kcal,20.55,17.73,g,110.8,41.06,g,45.63,86.53,mg,3.76,11.03,g,22.05,44g
+655609,Pennsylvania Dutch Pickled Eggs,2,['side dish'],[],6,8,203.02,kcal,10.15,1.4,g,8.76,30.95,g,34.39,319.89,mg,13.91,6.91,g,13.83,33g
+649977,Lick-Your-Plate Amazing Tiramisu,38,[],"['Mediterranean', 'Italian', 'European']",4,10,275.46,kcal,13.77,7.79,g,48.72,6.11,g,6.79,70.56,mg,3.07,19.84,mg,6.61,26g
+649886,Lemony Greek Lentil Soup,2,"['lunch', 'soup', 'main course', 'main dish', 'dinner']","['Mediterranean', 'European', 'Greek']",14,7,368.09,kcal,18.4,0.55,g,3.42,11.12,g,12.35,1018.77,mg,44.29,22.71,g,45.42,64g
+660382,Smoked Salmon Pasta,33,"['side dish', 'lunch', 'main course', 'main dish', 'dinner']",[],11,15,471.5,kcal,23.58,12.22,g,76.35,4.44,g,4.94,797.79,mg,34.69,21.57,g,43.14,47g
+663092,Thai Coconut Curry Soup,2,"['antipasti', 'soup', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]","['Indian', 'Asian']",16,6,217.75,kcal,10.89,5.85,g,36.58,3.58,g,3.98,389.99,mg,16.96,8.5,g,17.0,11g
+659513,Savoy Cabbage and Celery Root Soup with Leek Confit,2,"['antipasti', 'soup', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],16,5,183.5,kcal,9.17,1.75,g,10.92,5.92,g,6.57,1199.17,mg,52.14,5.22,g,10.45,27g
+649012,Kolaches,2,"['antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],10,4,112.69,kcal,5.63,3.24,g,20.23,6.41,g,7.12,131.95,mg,5.74,1.32,g,2.64,12g
+631757,Savory Slow Roasted Tomatoes with Filet of Anchovy,10,['side dish'],[],8,4,177.57,kcal,8.88,2.27,g,14.22,3.24,g,3.6,225.22,mg,9.79,6.0,g,12.0,4g
+645671,Grilled Chicken with Sateay Sauce,9,"['lunch', 'main course', 'main dish', 'dinner']",[],19,19,729.04,kcal,36.45,6.69,g,41.81,32.67,g,36.3,2080.68,mg,90.46,0.77,g,4.29,41g
+631880,5-Minute Blueberry Chia Jam,35,"['condiment', 'dip', 'spread']",[],4,1,81.14,kcal,4.06,0.22,g,1.37,9.72,g,10.8,2.82,mg,0.12,1.49,g,2.98,15g
+642540,Falafel Burgers,70,"['lunch', 'main course', 'main dish', 'dinner']",['American'],15,20,709.5,kcal,35.48,4.99,g,31.17,1.79,g,1.99,1172.55,mg,50.98,23.31,g,46.62,80g
+1055614,How to Make a Louisiana Style Gumbo,2,"['lunch', 'soup', 'main course', 'main dish', 'dinner']","['Creole', 'Cajun']",16,9,465.37,kcal,23.27,4.03,g,25.21,6.38,g,7.09,752.25,mg,32.71,1.33,g,7.37,23g
+801377,Chicken Parmesan Patty- Eat As A Burger OR On Pasta,3,"['lunch', 'main course', 'main dish', 'dinner']","['Mediterranean', 'Italian', 'European']",10,22,714.83,kcal,35.74,20.8,g,130.01,2.24,g,2.49,1599.79,mg,69.56,53.78,g,107.56,5g
+715420,Barbecue Chicken Cauliflower Couscous Bowls,398,"['lunch', 'main course', 'main dish', 'dinner']","['bbq', 'Barbecue']",15,12,380.84,kcal,19.04,6.52,g,40.75,16.76,g,18.62,1304.83,mg,56.73,20.3,g,40.59,27g
+658007,Raw Vegan Chocolate and Raspberry Cake,76,['dessert'],[],14,20,856.57,kcal,42.83,13.75,g,85.93,43.81,g,48.68,405.1,mg,17.61,7.47,mg,2.49,99g
+647412,Hot Charlotte Cocktail,4,"['beverage', 'drink']",[],4,9,255.97,kcal,12.8,0.01,g,0.04,16.72,g,18.57,0.59,mg,0.03,14.2,g,78.91,17g
+716403,Easy Lemon Feta Greek Yogurt Dip,252,"['antipasti', 'condiment', 'starter', 'snack', 'appetizer', 'dip', 'antipasto', ""hor d'oeuvre"", 'spread']","['Mediterranean', 'European', 'Greek']",7,8,250.16,kcal,12.51,7.61,g,47.57,0.81,g,0.9,491.76,mg,21.38,7.85,g,15.71,3g
+635795,Braised Bean Curds,4,"['lunch', 'main course', 'main dish', 'dinner']",[],19,8,356.36,kcal,17.82,3.22,g,20.12,7.55,g,8.38,715.94,mg,31.13,1.21,g,6.71,22g
+782624,Crockpot Garlic Lime Salsa Meatball Tacos,419,"['lunch', 'main course', 'main dish', 'dinner']",['Mexican'],8,17,536.29,kcal,26.81,12.2,g,76.27,7.96,g,8.84,1649.39,mg,71.71,31.06,g,62.12,30g
+663588,Tomato Cutlets,19,['side dish'],[],11,7,372.73,kcal,18.64,7.24,g,45.27,26.61,g,29.56,483.03,mg,21.0,17.33,g,34.65,44g
+651103,Market Stuffed Squash Blossoms,2,['side dish'],[],16,8,273.73,kcal,13.69,6.31,g,39.44,4.99,g,5.54,682.38,mg,29.67,10.05,g,20.11,30g
+640907,Croissants With Sesame Seeds (Kifli),5,"['antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",['Southern'],11,4,134.96,kcal,6.75,1.32,g,8.23,1.03,g,1.14,149.74,mg,6.51,3.84,g,7.68,14g
+638879,Chocolate Caramel Cupcakes,3,['dessert'],['American'],14,15,323.89,kcal,16.19,7.72,g,48.26,30.33,g,33.7,124.02,mg,5.39,13.55,mg,4.52,50g
+650620,Magic Cookie Bars,2,['dessert'],[],6,24,513.72,kcal,25.69,17.25,g,107.81,42.85,g,47.61,217.87,mg,9.47,7.47,g,14.94,53g
+646138,Halloween Mocha Cupcakes,10,['dessert'],['American'],19,18,466.15,kcal,23.31,15.56,g,97.26,45.97,g,51.08,162.11,mg,7.05,12.3,mg,4.1,60g
+655853,"Pesto Zucchini ""Spaghetti",4,"['side dish', 'lunch', 'main course', 'main dish', 'dinner']",[],8,10,451.63,kcal,22.58,15.36,g,95.98,6.64,g,7.38,1050.97,mg,45.69,27.49,g,54.98,13g
+796873,Yogurt Parfait,2,"['morning meal', 'brunch', 'breakfast']",[],7,19,692.06,kcal,34.6,1.94,g,12.12,80.66,g,89.62,404.82,mg,17.6,35.94,g,71.88,113g
+716415,Butternut Squash & Pear Soup: Real Convenience Food,366,"['antipasti', 'soup', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],7,8,405.73,kcal,20.29,11.36,g,70.99,26.86,g,29.85,2094.16,mg,91.05,5.1,g,10.19,75g
+662535,Sweet Mustard BBQ Pork Chops,69,"['lunch', 'main course', 'main dish', 'dinner']",[],7,15,444.52,kcal,22.23,5.14,g,32.14,35.67,g,39.63,1076.78,mg,46.82,37.72,g,75.44,39g
+639116,Chocolate nut spread,392,"['condiment', 'dip', 'spread']",[],9,4,156.06,kcal,7.8,2.76,g,17.28,8.13,g,9.03,8.74,mg,0.38,3.24,g,6.47,12g
+664270,Valentine's Chicken Marsala,94,"['lunch', 'main course', 'main dish', 'dinner']",[],10,23,676.03,kcal,33.8,10.63,g,66.45,16.35,g,18.16,264.87,mg,11.52,24.48,g,136.0,59g
+655406,Pear and Walnut Coffee Cake,2,"['morning meal', 'dessert', 'brunch', 'breakfast']",[],23,17,527.7,kcal,26.39,10.7,g,66.84,49.23,g,54.7,239.61,mg,10.42,6.68,g,13.36,73g
+729531,Roasted Lemon Pepper Pork Tenderloin with Cornbread Stuffing,65,"['lunch', 'main course', 'main dish', 'dinner']",['Southern'],12,22,705.39,kcal,35.27,10.7,g,66.84,19.69,g,21.88,1041.64,mg,45.29,47.46,g,94.91,71g
+658126,Red Wine Stewed Oxtail,2,"['lunch', 'soup', 'main course', 'main dish', 'dinner']",[],8,17,655.98,kcal,32.8,9.97,g,62.31,5.03,g,5.59,594.06,mg,25.83,15.58,g,86.57,11g
+635444,Blueberry Cobbler,2,['dessert'],['Southern'],12,22,604.41,kcal,30.22,6.34,g,39.62,104.22,g,115.8,317.45,mg,13.8,4.93,g,9.85,126g
+633144,Avocado Nests,58,['side dish'],[],6,13,404.59,kcal,20.23,6.52,g,40.76,0.97,g,1.07,425.97,mg,18.52,10.13,g,20.27,27g
+635345,Blue Cheese and Mushroom Turkey Burger,2,"['antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",['American'],6,4,126.84,kcal,6.34,0.17,g,1.04,11.0,g,12.22,2070.41,mg,90.02,9.15,g,18.3,24g
+686582,Pasta casserole with zucchini and chicken,2,"['side dish', 'lunch', 'main course', 'main dish', 'dinner']",[],12,27,914.01,kcal,45.7,17.21,g,107.53,13.63,g,15.15,476.96,mg,20.74,40.14,g,80.29,110g
+636576,Butternut Squash and Chorizo Pasta,2,"['side dish', 'antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],9,10,328.55,kcal,16.43,2.26,g,14.15,5.78,g,6.43,93.79,mg,4.08,10.29,g,20.58,49g
+646348,Havarti and Asparagus Quiche,3,"['antipasti', 'morning meal', 'starter', 'brunch', 'snack', 'appetizer', 'breakfast', 'antipasto', ""hor d'oeuvre""]","['Mediterranean', 'French', 'European']",9,24,536.77,kcal,26.84,23.06,g,144.12,26.23,g,29.14,398.16,mg,17.31,11.73,g,23.45,41g
+664963,Warm Lemon Poppy Seed Cake With Chocolate Ganache Center,2,['dessert'],[],8,23,523.78,kcal,26.19,21.15,g,132.21,22.34,g,24.83,57.58,mg,2.5,12.19,mg,4.06,41g
+716426,"Cauliflower, Brown Rice, and Vegetable Fried Rice",3689,"['side dish', 'antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]","['Chinese', 'Asian']",15,4,220.82,kcal,11.04,1.12,g,6.99,5.29,g,5.87,445.9,mg,19.39,9.03,g,18.05,34g
+664689,Vegetarian Ratatouille,2,"['side dish', 'antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]","['Mediterranean', 'French', 'European']",14,1,96.21,kcal,4.81,0.75,g,4.68,6.96,g,7.73,396.69,mg,17.25,2.61,g,5.23,12g
+644853,Gluten Free Profiteroles,4,['side dish'],[],8,36,800.3,kcal,40.01,45.78,g,286.15,4.79,g,5.32,1205.19,mg,52.4,10.32,g,20.64,25g
+637535,Cheese and Leek Strata,2,"['lunch', 'main course', 'main dish', 'dinner']",[],12,9,295.56,kcal,14.78,7.06,g,44.1,4.86,g,5.4,647.41,mg,28.15,16.43,g,32.86,25g
+715421,Cheesy Chicken Enchilada Quinoa Casserole,9912,"['side dish', 'lunch', 'main course', 'main dish', 'dinner']",['Mexican'],18,17,622.49,kcal,31.12,9.04,g,56.52,19.29,g,21.44,2324.18,mg,101.05,35.42,g,70.84,73g
+641543,Ditalini with peas,4,"['side dish', 'lunch', 'main course', 'main dish', 'dinner']",[],12,24,841.05,kcal,42.05,14.18,g,88.65,8.04,g,8.93,989.51,mg,43.02,36.83,g,73.67,90g
+633126,Avocado and Orange Salad With Orange-Ginger Dressing,4,"['side dish', 'antipasti', 'salad', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],9,14,501.49,kcal,25.07,5.77,g,36.05,17.9,g,19.89,209.59,mg,9.11,5.63,g,11.26,39g
+635070,Black Bean Mango Stir Fry with Cilantro Lime Coconut Sauce,3,"['antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],20,11,462.48,kcal,23.12,4.26,g,26.6,13.7,g,15.23,1189.21,mg,51.7,10.64,g,21.29,85g
+648709,"Kale & chickpea stew with cumin, smoked paprika and lime",15,"['antipasti', 'soup', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],16,6,262.6,kcal,13.13,3.25,g,20.32,6.62,g,7.36,334.84,mg,14.56,0.77,g,4.26,25g
+641202,"DAIRY-FREE COCOA CUPCAKES WITH PEANUT BUTTER FILLING, MARSHMALLOW FROSTING",8,['dessert'],['American'],28,14,342.78,kcal,17.14,2.46,g,15.39,42.46,g,47.17,212.28,mg,9.23,14.77,mg,4.92,59g
+1063645,The Secret to Easy Skillet Filet Mignon Steak Tacos,3,"['lunch', 'main course', 'main dish', 'dinner']",['Mexican'],8,15,510.5,kcal,25.53,13.59,g,84.92,0.74,g,0.82,109.42,mg,4.76,24.91,g,49.83,24g
+655186,Peaches And Cream Oatmeal,2,"['morning meal', 'brunch', 'breakfast']",[],6,12,411.92,kcal,20.6,1.87,g,11.67,17.96,g,19.96,93.55,mg,4.07,16.48,g,32.97,74g
+643669,Fried Bee Hoon/ Vermicelli,2,"['lunch', 'main course', 'main dish', 'dinner']",[],14,8,433.46,kcal,21.67,3.45,g,21.56,1.82,g,2.02,1623.04,mg,70.57,52.26,g,104.53,7g
+653192,No-Bake Fudge Brandy Brownies,22,[],['American'],6,7,174.68,kcal,8.73,3.66,g,22.87,12.04,g,13.38,87.23,mg,3.79,0.51,g,2.85,16g
+645265,Great Greek Salad,13,"['side dish', 'lunch', 'main course', 'salad', 'main dish', 'dinner']","['Mediterranean', 'European', 'Greek']",8,7,289.83,kcal,14.49,8.3,g,51.88,12.18,g,13.53,1191.95,mg,51.82,12.79,g,25.59,22g
+640238,Couscous with olives,25,['side dish'],[],8,8,302.48,kcal,15.12,1.61,g,10.05,1.62,g,1.8,338.77,mg,14.73,7.1,g,14.2,37g
+632101,Almond Butter and Chocolate Squares,16,"['condiment', 'dip', 'spread']",['Southern'],6,15,461.62,kcal,23.08,10.27,g,64.21,22.97,g,25.52,104.25,mg,4.53,17.01,mg,5.67,36g
+715573,Simple Skillet Lasagna,231,"['lunch', 'main course', 'main dish', 'dinner']","['Mediterranean', 'Italian', 'European']",12,23,761.22,kcal,38.06,16.59,g,103.7,9.25,g,10.28,1684.89,mg,73.26,30.69,g,61.39,58g
