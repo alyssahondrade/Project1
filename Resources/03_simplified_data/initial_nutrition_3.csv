@@ -1,0 +1,34 @@
+ID,Name,Likes,Meal Type,Cuisines,N_ingredients,Calories (Amount),Calories (Unit),Calories (% of Daily Needs),Saturated Fat (Amount),Saturated Fat (Unit),Saturated Fat (% of Daily Needs),Sugar (Amount),Sugar (Unit),Sugar (% of Daily Needs),Sodium (Amount),Sodium (Unit),Sodium (% of Daily Needs),Protein (Amount),Protein (Unit),Protein (% of Daily Needs)
+645384,Greek Yogurt Chicken Salad,4,"['lunch', 'main course', 'main dish', 'dinner']","['Mediterranean', 'European', 'Greek']",7,334.09,kcal,16.7,2.45,g,15.31,9.21,g,10.24,318.44,mg,13.85,41.31,g,82.62
+636271,Brooklyn Blackout Cake,6,['dessert'],[],14,328.77,kcal,16.44,7.57,g,47.34,8.25,g,9.16,305.1,mg,13.27,29.67,mg,9.89
+639137,Chocolate Pavlova with Winter Fruit,13,['dessert'],[],12,283.94,kcal,14.2,10.35,g,64.7,29.74,g,33.05,32.36,mg,1.41,5.7,mg,1.9
+634229,Bananas Foster,4,['dessert'],"['Creole', 'Cajun']",7,507.9,kcal,25.4,7.33,g,45.82,66.5,g,73.89,105.02,mg,4.57,13.06,g,72.57
+660283,SLOW COOKER CHICKEN GUMBO SOUP,2,"['antipasti', 'soup', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]","['Creole', 'Cajun']",14,351.07,kcal,17.55,1.37,g,8.55,6.26,g,6.96,764.99,mg,33.26,12.98,g,25.96
+633595,Baked Eggs With Asparagus and Sun Dried Tomatoes,3,"['lunch', 'main course', 'morning meal', 'brunch', 'main dish', 'breakfast', 'dinner']",[],8,178.27,kcal,8.91,2.5,g,15.61,6.17,g,6.85,275.18,mg,11.96,20.99,g,41.97
+663879,Trout wrapped in bacon,4,"['lunch', 'main course', 'main dish', 'dinner']",[],8,519.15,kcal,25.96,10.73,g,67.07,0.16,g,0.17,429.84,mg,18.69,47.34,g,94.69
+634986,Bing's Banana Cake,6,['dessert'],[],8,139.04,kcal,6.95,0.74,g,4.6,6.36,g,7.07,133.3,mg,5.8,3.88,g,7.76
+716431,Crockpot Applesauce,1703,"['antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],5,412.45,kcal,20.62,0.22,g,1.37,80.03,g,88.92,8.19,mg,0.36,1.49,g,8.28
+659143,"Salmon, Watercress, Fennel and Baby Beetroot Salad With Lemony ""Caviar"" Dressing",4,"['side dish', 'lunch', 'main course', 'salad', 'main dish', 'dinner']",[],12,440.07,kcal,22.0,4.24,g,26.48,10.85,g,12.06,186.03,mg,8.09,0.39,g,2.15
+636300,Brown sugar & Spice Sugar cookie frogs,28,['dessert'],[],12,143.07,kcal,7.15,3.94,g,24.63,10.51,g,11.67,85.39,mg,3.71,1.55,g,3.1
+641110,Curry and Sage Roast Chicken,2,"['lunch', 'main course', 'main dish', 'dinner']","['Indian', 'Asian']",10,564.52,kcal,28.23,9.76,g,60.97,13.7,g,15.22,135.17,mg,5.88,35.89,g,71.79
+638586,Chili-Garlic Stir Fry,3,"['lunch', 'main course', 'main dish', 'dinner']",['American'],17,147.32,kcal,7.37,0.71,g,4.41,5.3,g,5.89,391.22,mg,17.01,0.52,g,2.86
+655609,Pennsylvania Dutch Pickled Eggs,2,['side dish'],[],6,203.02,kcal,10.15,1.4,g,8.76,30.95,g,34.39,319.89,mg,13.91,6.91,g,13.83
+1003210,Lemon Poppy Seed Muffins,5,"['morning meal', 'brunch', 'breakfast']",[],6,129.69,kcal,6.48,0.99,g,6.18,9.38,g,10.42,189.66,mg,8.25,1.98,g,3.97
+644965,"Goat Cheese, Fig And Proscuitto Crostini",2,"['fingerfood', 'antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]","['Mediterranean', 'Italian', 'European']",4,467.03,kcal,23.35,2.97,g,18.58,31.53,g,35.03,717.9,mg,31.21,6.09,g,12.18
+632071,All American Sloppy Joes,37,"['lunch', 'main course', 'main dish', 'dinner']",['American'],11,507.21,kcal,25.36,9.52,g,59.51,14.68,g,16.32,824.15,mg,35.83,24.81,g,49.63
+638035,Chicken Cordon Bleu,162,"['lunch', 'main course', 'main dish', 'dinner']",[],10,416.73,kcal,20.84,9.19,g,57.42,0.69,g,0.77,620.65,mg,26.98,42.98,g,85.96
+665172,White Chocolate Cheesecake With Raspberries,24,['dessert'],[],11,287.7,kcal,14.39,10.63,g,66.42,20.25,g,22.5,121.17,mg,5.27,0.26,g,1.43
+716351,Banana Milo Milkshake,139,"['beverage', 'drink']",[],6,283.95,kcal,14.2,4.38,g,27.35,31.37,g,34.86,199.89,mg,8.69,4.39,g,8.77
+642585,"Farfalle with fresh tomatoes, basil and mozzarella",7,"['side dish', 'lunch', 'main course', 'main dish', 'dinner']",[],8,557.52,kcal,27.88,4.98,g,31.11,6.29,g,6.98,210.98,mg,9.17,16.19,g,32.38
+658129,"Red, White, and Blue Fruit Salsa",5,"['antipasti', 'condiment', 'starter', 'snack', 'appetizer', 'dip', 'antipasto', ""hor d'oeuvre"", 'spread']",['Mexican'],7,93.38,kcal,4.67,2.42,g,15.14,12.25,g,13.62,27.46,mg,1.19,0.82,g,1.63
+637335,Cedar-Planked Salmon With Mustard Dill Sauce,10,"['lunch', 'main course', 'main dish', 'dinner']",[],12,283.69,kcal,14.18,5.64,g,35.25,1.69,g,1.87,87.92,mg,3.82,23.69,g,47.39
+636415,Buffalo Chicken Pizza,2,"['lunch', 'main course', 'main dish', 'dinner']","['Mediterranean', 'Italian', 'European']",6,2351.35,kcal,117.57,157.56,g,984.76,1.16,g,1.29,2660.53,mg,115.68,14.65,g,29.3
+1098355,Bahamian Goombay Smash Cocktail,5,"['beverage', 'drink']",['Mexican'],8,377.23,kcal,18.86,0.04,g,0.23,25.1,g,27.89,4.59,mg,0.2,35.51,g,197.27
+634389,Basic Hummus,4,"['antipasti', 'condiment', 'starter', 'snack', 'appetizer', 'dip', 'antipasto', ""hor d'oeuvre"", 'spread']",['Middle Eastern'],8,39.56,kcal,1.98,0.26,g,1.65,0.04,g,0.05,77.5,mg,3.37,1.61,g,3.22
+716370,Semi Ripe Plantain Pottage,272,"['lunch', 'main course', 'main dish', 'dinner']",[],12,686.34,kcal,34.32,0.58,g,3.64,65.38,g,72.64,265.44,mg,11.54,36.92,g,73.85
+647799,Indian Butter Chicken,7,"['antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]","['Indian', 'Asian']",12,24.4,kcal,1.22,0.53,g,3.29,0.5,g,0.55,218.14,mg,9.48,2.28,g,4.55
+659929,Shrimp and Cucumber Lettuce Wraps With Fresh Dill,6,"['antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]",[],9,30.07,kcal,1.5,0.05,g,0.31,0.81,g,0.9,385.08,mg,16.74,4.23,g,8.46
+801377,Chicken Parmesan Patty- Eat As A Burger OR On Pasta,3,"['lunch', 'main course', 'main dish', 'dinner']","['Mediterranean', 'Italian', 'European']",10,714.83,kcal,35.74,20.8,g,130.01,2.24,g,2.49,1599.79,mg,69.56,53.78,g,107.56
+660231,Skinny Veggie Fried Rice,8,"['side dish', 'antipasti', 'starter', 'snack', 'appetizer', 'antipasto', ""hor d'oeuvre""]","['Chinese', 'Asian']",14,182.93,kcal,9.15,1.28,g,8.0,10.25,g,11.38,511.93,mg,22.26,7.12,g,14.24
+665642,Zesty Lime Marinated Chicken with Homemade Watermelon Salsa,3,"['lunch', 'main course', 'main dish', 'dinner']",['Mexican'],15,244.69,kcal,12.23,1.22,g,7.65,15.97,g,17.75,749.29,mg,32.58,25.68,g,51.36
+653670,One Bowl Jalapeno Cheddar Cornbread,36,['bread'],['Southern'],11,527.17,kcal,26.36,14.88,g,93.01,25.23,g,28.03,790.65,mg,34.38,12.64,g,25.28
