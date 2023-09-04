@@ -12,7 +12,8 @@ Github Repository at: [https://github.com/alyssahondrade/Project1.git](https://g
 3. [Approach](https://github.com/alyssahondrade/Project1#approach)
 4. [Decision Points](https://github.com/alyssahondrade/Project1#decision-points)
 5. [Analysis](https://github.com/alyssahondrade/Project1#analysis)
-5. [References](https://github.com/alyssahondrade/Project1#references)
+6. [Future Research](https://github.com/alyssahondrade/Project1#future-research)
+7. [References](https://github.com/alyssahondrade/Project1#references)
 
 ## Introduction
 ### Goal
@@ -42,23 +43,24 @@ Meal types will be narrowed down to `breakfast`, `lunch`, and `dinner`, or equiv
 
 ## Approach
 ### Data Analytics Paradigm
-1. Decompose the Ask + Identify Data Sources
+#### 1. Decompose the Ask + Identify Data Sources
     - The first two steps were conducted simultaneously in the project proposal phase.
-    - The research questions and data sources are provided in [Scope]
+    - The research questions and data sources are provided in [Scope](https://github.com/alyssahondrade/Project1#scope).
+    - 
 
-2. Define Strategy and Metrics
+#### 2. Define Strategy and Metrics
 
-3. Build a Data Retrieval Plan
+#### 3. Build a Data Retrieval Plan
 
-4. Retrieve the Data
+#### 4. Retrieve the Data
 
-5. Assemble and Clean
+#### 5. Assemble and Clean
 
-6. Analyse or Trends
+#### 6. Analyse or Trends
 
-7. Acknowledge Limitations
+#### 7. Acknowledge Limitations
 
-8. Tell the Story
+#### 8. Tell the Story
 
 #### Food.com
 
