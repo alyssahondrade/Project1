@@ -86,7 +86,11 @@ The nutritional values of interest will be reduced to the minimum required for c
 1. 
 
 ### Food.com
-1. Import `RAW_recipes.csv` and `RAW_interactions.csv` as `food_df` and `interactions_df` respectively.
+1. Import the Food.com datasets as Pandas DataFrames:
+
+    `RAW_recipes.csv` as `food_df`
+    `RAW_interactions.csv` as `interactions_df`
+
 2. Extract __ratings__ from `interactions_df` and merge the result with `food_df`.
 3. Check for duplicate recipe IDs.
 4. Parse the `tags` column:
@@ -115,7 +119,7 @@ The nutritional values of interest will be reduced to the minimum required for c
         - Protein = 50g
         - Saturated fat = 20g
         - Carbohydrates = 300g
-6. 
+7. 
 
 ### Spoonacular API
 1. 
