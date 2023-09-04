@@ -71,7 +71,9 @@ The project will investigate recipe popularity, meal types, and cuisines, and wi
     As a minimum, the cuisine type must be available in both datasets.
 
 ### Nutritional Values
-The nutritional values of interest will be reduced to the minimum required for calculating the "health" score: `calories`, `saturated fat`, `sugar`, and `protein`.
+The nutritional values of interest will be reduced to the minimum required for calculating the "health" score:
+
+`calories, saturated fat, sugar, protein`
 
 Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single serving [Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition), a necessary consideration when using the values for calculations.
 
@@ -136,6 +138,9 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
     - WW Smart Points Equation:
 
         $$SmartPoint = (Calories * 0.0305) + (Saturated Fat * 0.275) + (Sugar * 1.2) - (Protein * 0.98)$$
+
+    - User `iterrows()` to loop through the DataFrame, get each value, and calculate the points.
+    - Convert the calculated value to an integer.
 
 7. 
 8. 
