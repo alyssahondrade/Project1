@@ -92,7 +92,8 @@ The nutritional values of interest will be reduced to the minimum required for c
 4. Parse the `tags` column:
     - Get a list of unique tags by stripping and splitting each row in the `tags` column.
     - The function `tag_check()` takes a list as an input, which it checks against the list of unique tags.
-        - For meal types, use: `breakfast, lunch, dinner` as the input.
+        - For meal types input, use:
+              `breakfast, lunch, dinner`
         - For cuisines, use [Spoonacular supported cuisines](https://spoonacular.com/food-api/docs#Cuisines): `African, Asian, American, British, Cajun, Caribbean, Chinese, Eastern European, European, French, German, Greek, Indian, Irish, Italian, Japanese, Jewish, Korean, Latin American, Mediterranean, Mexican, Middle Eastern, Nordic, Southern, Spanish, Thai, Vietnamese` as the input.
     - Identify whether the minimum required tags exist in the `tags` column, otherwise, identify alternatives.
     - The function `parse_tags()` takes an input list (to search for in the `tags` column), the DataFrame to search, and the column name to save. This returns a count of each unique tag that exists in the DataFrame.
