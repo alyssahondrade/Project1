@@ -57,12 +57,15 @@ The project will investigate recipe popularity, meal types, and cuisines.
     WW Smart Points is a scoring system using calories, saturated fat, sugar, and protein, where the lower the number the healthier the food is. Calories provides the baseline, saturated fat and sugar increase the score, and protein decreases the score.
 
 - __What is considered as a "recipe"?__
+
     All submissions on both websites are considered as a "recipe", regardless if the recipe is a meal or a drink.
 
 - __What is a meal type?__
+
     For simplicity, meal types have been narrowed to `breakfast`, `lunch`, and `dinner`, or equivalents if unavailable.
 
 - __What cuisines will be considered?__
+
     As a minimum, the cuisine type must be available in both datasets.
 
 ### Nutritional Values
