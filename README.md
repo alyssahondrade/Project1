@@ -7,10 +7,12 @@ Github Repository at: [https://github.com/alyssahondrade/Project1.git](https://g
 1. [Introduction](https://github.com/alyssahondrade/Project1#introduction)
     1. [Goal](https://github.com/alyssahondrade/Project1#goal)
     2. [Repository Structure](https://github.com/alyssahondrade/Project1#repository-structure)
-    3. [Dataset](https://github.com/alyssahondrade/Project1#dataset)
-2. [Approach](https://github.com/alyssahondrade/Project1#approach)
-3. [Analysis](https://github.com/alyssahondrade/Project1#analysis)
-4. [References](https://github.com/alyssahondrade/Project1#references)
+    3. [Dataset](https://github.com/alyssahondrade/Project1#dataset
+2. [Scope](https://github.com/alyssahondrade/Project1#scope)
+3. [Approach](https://github.com/alyssahondrade/Project1#approach)
+4. [Decision Points](https://github.com/alyssahondrade/Project1#decision-points)
+5. [Analysis](https://github.com/alyssahondrade/Project1#analysis)
+5. [References](https://github.com/alyssahondrade/Project1#references)
 
 ## Introduction
 ### Goal
@@ -71,7 +73,7 @@ Meal types will be narrowed down to `breakfast`, `lunch`, and `dinner`, or equiv
 ### Limitations
 
 
-## Future 
+## Future Research
 
 ## References
 - [1] Weight Watchers Smart Points Calculator [https://www.watcherspoint.com/weight-watchers-smart-points-calculator](https://www.watcherspoint.com/weight-watchers-smart-points-calculator)
