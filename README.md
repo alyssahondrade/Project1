@@ -90,13 +90,22 @@ The nutritional values of interest will be reduced to the minimum required for c
 2. Extract __ratings__ from `interactions_df` and merge the result with `food_df`.
 3. Check for duplicate recipe IDs.
 4. Parse the `tags` column:
-    1. Get a list of unique tags by stripping and splitting each row in the `tags` column.
-    2. The function `tag_check()` takes a list as an input, which it checks against the list of unique tags.
-       1. For meal types, use: `breakfast, lunch, dinner` as the input.
-       2. For cuisines, use [Spoonacular supported cuisines](https://spoonacular.com/food-api/docs#Cuisines): `African, Asian, American, British, Cajun, Caribbean, Chinese, Eastern European, European, French, German, Greek, Indian, Irish, Italian, Japanese, Jewish, Korean, Latin American, Mediterranean, Mexican, Middle Eastern, Nordic, Southern, Spanish, Thai, Vietnamese` as the input.
-    3. Identify whether the minimum required tags exist in the `tags` column, otherwise, identify alternatives.
-    4. The function `parse_tags()` takes an input list (to search for in the `tags` column), the DataFrame to search, and the column name to save. This returns a count of each unique tag that exists in the DataFrame.
-    5. Reduce the merged DataFrame to rows with only one meal type.
+    - Get a list of unique tags by stripping and splitting each row in the `tags` column.
+    - The function `tag_check()` takes a list as an input, which it checks against the list of unique tags.
+        - For meal types, use: `breakfast, lunch, dinner` as the input.
+        - For cuisines, use [Spoonacular supported cuisines](https://spoonacular.com/food-api/docs#Cuisines): `African, Asian, American, British, Cajun, Caribbean, Chinese, Eastern European, European, French, German, Greek, Indian, Irish, Italian, Japanese, Jewish, Korean, Latin American, Mediterranean, Mexican, Middle Eastern, Nordic, Southern, Spanish, Thai, Vietnamese` as the input.
+    - Identify whether the minimum required tags exist in the `tags` column, otherwise, identify alternatives.
+    - The function `parse_tags()` takes an input list (to search for in the `tags` column), the DataFrame to search, and the column name to save. This returns a count of each unique tag that exists in the DataFrame.
+    - Reduce the merged DataFrame to rows with only one meal type.
+5. Convert the `nutrition` column to nutritional values.
+    - The list in the column corresponds to the following [Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition): `calories (#), total fat (PDV), sugar (PDV), sodium (PDV) , protein (PDV), saturated fat, carbohydrates (PDV)`.
+    - The conversion units is based on a 2,000-calorie diet [Source](http://krupp.wcc.hawaii.edu/biol100l/nutrition/dailyval.pdf):
+        - Total fat = 65g
+        - Sugar = 50g
+        - Sodium = 2400mg (2.4g)
+        - Protein = 50g
+        - Saturated fat = 20g
+        - Carbohydrates = 300g
 6. 
 
 ### Spoonacular API
@@ -126,7 +135,7 @@ The nutritional values of interest will be reduced to the minimum required for c
 
 - [2] Nutri-Score - A Simple Science-Based Nutritional Value Labelling System for the Food Industry [https://get.apicbase.com/nutri-score-science-based-nutritional-value-labelling-system/](https://get.apicbase.com/nutri-score-science-based-nutritional-value-labelling-system/)
 
-
+- [3] Kaggle - Food.com Recipes and Interactions - Discussion [https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition)
 
 
 
