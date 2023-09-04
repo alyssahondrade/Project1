@@ -142,8 +142,20 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
     - User `iterrows()` to loop through the DataFrame, get each value, and calculate the points.
     - Convert the calculated value to an integer.
 
-7. 
+7. Outlier identification.
+    - Calculate the descriptive statistics for the cleaned DataFrame.
+    - Use `describe()` to get the baseline statistics:
+  
+        `mean, std, min, 25%, 75%, max`
+
+    - The function `add_iqr()` takes the `describe()` output (Series or DataFrame) as the input, to append values for:
+
+        `iqr, lower_bounds, upper_bounds`
+
+    - Explore outliers in the `PDV` columns
+    - 
 8. 
+9. 
 
 ### Spoonacular API
 1. 
