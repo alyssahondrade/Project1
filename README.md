@@ -87,7 +87,20 @@ The nutritional values of interest will be reduced to the minimum required for c
 
 ### Food.com
 1. Import `RAW_recipes.csv` and `RAW_interactions.csv` as `food_df` and `interactions_df` respectively.
-2. Extract __ratings__ from 
+2. Extract __ratings__ from `interactions_df` and merge the result with `food_df`.
+3. Check for duplicate recipe IDs.
+4. Parse the `tags` column:
+    1. Get a list of unique tags by stripping and splitting each row in the `tags` column.
+    2. The function `tag_check()` takes a list as an input, which it checks against the list of unique tags.
+       1. For meal types, use: `breakfast, lunch, dinner` as the input.
+       2. For cuisines, use [Spoonacular supported cuisines](https://spoonacular.com/food-api/docs#Cuisines): `African, Asian, American, British, Cajun, Caribbean, Chinese, Eastern European, European, French, German, Greek, Indian, Irish, Italian, Japanese, Jewish, Korean, Latin American, Mediterranean, Mexican, Middle Eastern, Nordic, Southern, Spanish, Thai, Vietnamese` as the input.
+    3. Identify whether the minimum required tags exist in the `tags` column, otherwise, identify alternatives.
+    4. The function `parse_tags()` takes an input list (to search for in the `tags` column), the DataFrame to search, and the column name to save. This returns a count of each unique tag that exists in the DataFrame.
+    5. Reduce the merged DataFrame to rows with only one meal type.
+6. 
+
+### Spoonacular API
+1. 
 
 ### UNCATEGORISED
 - Divide the nutritional values by the `servings` column.
