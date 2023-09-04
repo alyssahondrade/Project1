@@ -42,7 +42,9 @@ The project will investigate recipe popularity, meal types, and cuisines, and wi
 ## Scope
 ### Research Questions
 1.	Are more popular/higher-rated recipes healthier? What is the health rating of the highest-rated recipes?
+
 2.	What meal type (i.e., breakfast, lunch, or dinner) have the healthiest/unhealthiest (percentage) recipes? What is the most popular ingredient for each meal?
+
 3.	Which cuisine has the healthiest recipes?
 
 ### Question Decomposition
@@ -190,7 +192,9 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 - [4] How to Understand and Use the Nutrition Facts Label [https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label](https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label)
 
+- [5] How to Import Functions from Another Jupyter Notebook [https://saturncloud.io/blog/how-to-import-functions-from-another-jupyter-notebook/](https://saturncloud.io/blog/how-to-import-functions-from-another-jupyter-notebook/)
 
+- 
 
 
 
