@@ -73,13 +73,19 @@ The project will investigate recipe popularity, meal types, and cuisines, and wi
 ### Nutritional Values
 The nutritional values of interest will be reduced to the minimum required for calculating the "health" score: `calories`, `saturated fat`, `sugar`, and `protein`.
 
+Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single serving [Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition), a necessary consideration when using the values for calculations.
+
 ## Approach
 ### Fields
 #### Minimum required
 1. The recipe ID and name, for identification purposes.
+
 2. Measure of recipe popularity, such as likes or ratings, converted to a common scoring system as required.
-3. The minimum nutritional values outlined in the scope (`calories`, `saturated fat`, `sugar`, `protein`) with units preferably in `grams`. Or, if the absolute value is not available, the `Percent of Daily Values (PDV)`.
+
+3. The minimum nutritional values outlined in the scope (`calories`, `saturated fat`, `sugar`, `protein`) with units preferably in `grams`. Or, if the absolute value is not available, the `PDV`.
+
 4. Meal type classified to a single meal type, i.e. `breakfast` OR `lunch` OR `dinner`. The type must be mutually exclusive.
+
 5. Cuisine, as with the meal type.
 
 #### Additional
@@ -89,10 +95,13 @@ The nutritional values of interest will be reduced to the minimum required for c
 1. Import the Food.com datasets as Pandas DataFrames:
 
     `RAW_recipes.csv` as `food_df`
+   
     `RAW_interactions.csv` as `interactions_df`
 
 2. Extract __ratings__ from `interactions_df` and merge the result with `food_df`.
+
 3. Check for duplicate recipe IDs.
+
 4. Parse the `tags` column:
     - Get a list of unique tags by stripping and splitting each row in the `tags` column.
     - The function `tag_check()` takes a list as an input, which it checks against the list of unique tags.
@@ -107,6 +116,7 @@ The nutritional values of interest will be reduced to the minimum required for c
     - Identify whether the minimum required tags exist in the `tags` column, otherwise, identify alternatives.
     - The function `parse_tags()` takes an input list (to search for in the `tags` column), the DataFrame to search, and the column name to save. This returns a count of each unique tag that exists in the DataFrame.
     - Reduce the merged DataFrame to rows with only one meal type.
+
 5. Convert the `nutrition` column to nutritional values.
     - The list in the column corresponds to the following [Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition):
 
@@ -119,13 +129,22 @@ The nutritional values of interest will be reduced to the minimum required for c
         - Protein = 50g
         - Saturated fat = 20g
         - Carbohydrates = 300g
+    - Use `iterrows()` to loop through the DataFrame and parse each row to the nutritional values as a float.
+    - Use `iterrows()` to append the absolute value of each nutritional value (in grams) to its corresponding column.
+
+6. Calculate the WW Smart Points
+    - WW Smart Points Equation:
+
+        $$SmartPoint = (Calories * 0.0305) + (Saturated Fat * 0.275) + (Sugar * 1.2) - (Protein * 0.98)$$
+
 7. 
+8. 
 
 ### Spoonacular API
 1. 
 
 ### UNCATEGORISED
-- Divide the nutritional values by the `servings` column.
+- Divide the nutritional values by the `servings` column (Spoonacular) - might not need this, since can also use the PDV? just check the calculations against the amount. Then calculate the WW smart points and compare to the Spoonacular values. Since Food.com gives the nutritional values in PDV, this assumes a single serving.
 
 ## Decision Points
 1. __Food.com meal types__. `dinner-party` is used in lieu of `dinner`, as it does not exist in the tag list.
