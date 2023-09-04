@@ -153,7 +153,9 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
         `iqr, lower_bounds, upper_bounds`
 
     - Explore outliers in the `PDV` columns, no need to remove these values as the PDV is for a single serving [Source](https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label).
-    - 
+    - Explore outliers in the `minutes` column, and remove:
+        - Recipes with `minutes` greater than the calculated upper bounds, and
+        - Recipes with `0` minutes
 8. 
 9. 
 
