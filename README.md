@@ -44,24 +44,26 @@ The project will investigate recipe popularity, meal types, and cuisines.
 3.	Which cuisine has the healthiest recipes?
 
 ### Question Decomposition
-- What is meant by "popularity"?
-The project defines popularity by the highest rating (Food.com dataset) or the highest aggregate likes (Spoonacular API).
+- __What is meant by "popularity"?__
 
-- How is "healthiness" defined?
-As per the project goal, "healthiness" is defined by the two market-implemented measures: Nutri-Scores and WW Smart Points.
+    The project defines popularity by the highest rating (Food.com dataset) or the highest aggregate likes (Spoonacular API).
+
+- __How is "healthiness" defined?__
+
+    As per the project goal, "healthiness" is defined by the two market-implemented measures: Nutri-Scores and WW Smart Points.
 
     Nutri-Scores is based on a five colour-coded letter grade (A, B, C, D, E), where `A` is the highest and healthiest score.
 
     WW Smart Points is a scoring system using calories, saturated fat, sugar, and protein, where the lower the number the healthier the food is. Calories provides the baseline, saturated fat and sugar increase the score, and protein decreases the score.
 
-- What is considered as a "recipe"?
-All submissions on both websites are considered as a "recipe", regardless if the recipe is a meal or a drink.
+- __What is considered as a "recipe"?__
+    All submissions on both websites are considered as a "recipe", regardless if the recipe is a meal or a drink.
 
-- What is a meal type?
-For simplicity, meal types have been narrowed to `breakfast`, `lunch`, and `dinner`, or equivalents if unavailable.
+- __What is a meal type?__
+    For simplicity, meal types have been narrowed to `breakfast`, `lunch`, and `dinner`, or equivalents if unavailable.
 
-- What cuisines will be considered?
-As a minimum, the cuisine type must be available in both datasets.
+- __What cuisines will be considered?__
+    As a minimum, the cuisine type must be available in both datasets.
 
 ### Nutritional Values
 THe nutritional values of interest will be reduced to the minimum required for calculating the "health" score: `calories`, `saturated fat`, `sugar`, and `protein`.
