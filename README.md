@@ -92,16 +92,22 @@ The nutritional values of interest will be reduced to the minimum required for c
 4. Parse the `tags` column:
     - Get a list of unique tags by stripping and splitting each row in the `tags` column.
     - The function `tag_check()` takes a list as an input, which it checks against the list of unique tags.
-        - For meal types input, use:
+        - For meal types input list, use:
 
             `breakfast, lunch, dinner`
 
-        - For cuisines, use [Spoonacular supported cuisines](https://spoonacular.com/food-api/docs#Cuisines): `African, Asian, American, British, Cajun, Caribbean, Chinese, Eastern European, European, French, German, Greek, Indian, Irish, Italian, Japanese, Jewish, Korean, Latin American, Mediterranean, Mexican, Middle Eastern, Nordic, Southern, Spanish, Thai, Vietnamese` as the input.
+        - For cuisines input list, use [Spoonacular supported cuisines](https://spoonacular.com/food-api/docs#Cuisines):
+
+            `African, Asian, American, British, Cajun, Caribbean, Chinese, Eastern European, European, French, German, Greek, Indian, Irish, Italian, Japanese, Jewish, Korean, Latin American, Mediterranean, Mexican, Middle Eastern, Nordic, Southern, Spanish, Thai, Vietnamese`
+
     - Identify whether the minimum required tags exist in the `tags` column, otherwise, identify alternatives.
     - The function `parse_tags()` takes an input list (to search for in the `tags` column), the DataFrame to search, and the column name to save. This returns a count of each unique tag that exists in the DataFrame.
     - Reduce the merged DataFrame to rows with only one meal type.
 5. Convert the `nutrition` column to nutritional values.
-    - The list in the column corresponds to the following [Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition): `calories (#), total fat (PDV), sugar (PDV), sodium (PDV) , protein (PDV), saturated fat, carbohydrates (PDV)`.
+    - The list in the column corresponds to the following [Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition):
+
+        `calories (#), total fat (PDV), sugar (PDV), sodium (PDV) , protein (PDV), saturated fat, carbohydrates (PDV)`.
+      
     - The conversion units is based on a 2,000-calorie diet [Source](http://krupp.wcc.hawaii.edu/biol100l/nutrition/dailyval.pdf):
         - Total fat = 65g
         - Sugar = 50g
