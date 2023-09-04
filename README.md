@@ -74,13 +74,28 @@ The project will investigate recipe popularity, meal types, and cuisines, and wi
 The nutritional values of interest will be reduced to the minimum required for calculating the "health" score: `calories`, `saturated fat`, `sugar`, and `protein`.
 
 ## Approach
+### Fields
+#### Minimum required
+1. The recipe ID and name, for identification purposes.
+2. Measure of recipe popularity, such as likes or ratings, converted to a common scoring system as required.
+3. The minimum nutritional values outlined in the scope (`calories`, `saturated fat`, `sugar`, `protein`) with units preferably in `grams`. Or, if the absolute value is not available, the `Percent of Daily Values (PDV)`.
+4. Meal type classified to a single meal type, i.e. `breakfast` OR `lunch` OR `dinner`. The type must be mutually exclusive.
+5. Cuisine, as with the meal type.
+
+#### Additional
+1. 
+
 ### Food.com
 1. Import `RAW_recipes.csv` and `RAW_interactions.csv` as `food_df` and `interactions_df` respectively.
 2. Extract __ratings__ from 
 
+### UNCATEGORISED
+- Divide the nutritional values by the `servings` column.
+
 ## Decision Points
 1. __Food.com meal types__. `dinner-party` is used in lieu of `dinner`, as it does not exist in the tag list.
 2. __Negative WW Smart Points__. Although the WW Smart Points system does not allow for negative points, calculated negative values are allowed to present a wider range of values.
+
 
 ## Analysis
 
@@ -90,8 +105,20 @@ The nutritional values of interest will be reduced to the minimum required for c
 
 
 ## Future Research
+- __Longitudinal: Nutritional Value and Recipe Rating Evolution__
+    Determine how recipe ratings and nutritional values change over time. The Food.com dataset has the date of each review, as well as the date the recipe is submitted. For Spoonacular, as the source URL for each recipe is provided, it is possible to determine the exact date using a few methods, such as Google's "inurl" functionality.
 
 ## References
 - [1] Weight Watchers Smart Points Calculator [https://www.watcherspoint.com/weight-watchers-smart-points-calculator](https://www.watcherspoint.com/weight-watchers-smart-points-calculator)
 
 - [2] Nutri-Score - A Simple Science-Based Nutritional Value Labelling System for the Food Industry [https://get.apicbase.com/nutri-score-science-based-nutritional-value-labelling-system/](https://get.apicbase.com/nutri-score-science-based-nutritional-value-labelling-system/)
+
+
+
+
+
+
+
+
+
+- [] How To Find When A Website Was First Published Or Launched [https://www.alphr.com/find-when-website-published-launched/](https://www.alphr.com/find-when-website-published-launched/)
