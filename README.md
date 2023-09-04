@@ -183,6 +183,10 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 - __Longitudinal: Nutritional Value and Recipe Rating Evolution__
     Determine how recipe ratings and nutritional values change over time. The Food.com dataset has the date of each review, as well as the date the recipe is submitted. For Spoonacular, as the source URL for each recipe is provided, it is possible to determine the exact date using a few methods, such as Google's "inurl" functionality.
 
+- __Ingredients Classification: Food Group Percentage as Measure of Healthiness__
+
+
+
 ## References
 - [1] Weight Watchers Smart Points Calculator [https://www.watcherspoint.com/weight-watchers-smart-points-calculator](https://www.watcherspoint.com/weight-watchers-smart-points-calculator)
 
