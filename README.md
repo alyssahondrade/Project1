@@ -152,7 +152,7 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
         `iqr, lower_bounds, upper_bounds`
 
-    - Explore outliers in the `PDV` columns
+    - Explore outliers in the `PDV` columns, no need to remove these values as the PDV is for a single serving [Source](https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label).
     - 
 8. 
 9. 
@@ -186,6 +186,7 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 - [3] Kaggle - Food.com Recipes and Interactions - Discussion [https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition)
 
+- [4] How to Understand and Use the Nutrition Facts Label [https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label](https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label)
 
 
 
