@@ -29,7 +29,7 @@ The goal of the project is to compare recipes from two popular recipe websites, 
 1. Nutri-Scores: [https://www.mangiu.ch/index/](https://www.mangiu.ch/index/)
 2. Weight Watchers (WW) Smart Points [https://www.weightwatchers.com/us/how-it-works/smartpoints](https://www.weightwatchers.com/us/how-it-works/smartpoints)
 
-The project will investigate recipe popularity, meal types, and cuisines.
+The project will investigate recipe popularity, meal types, and cuisines, and will be conducted as per the data analytics paradigm.
 
 ### Repository Structure
 
@@ -69,29 +69,11 @@ The project will investigate recipe popularity, meal types, and cuisines.
     As a minimum, the cuisine type must be available in both datasets.
 
 ### Nutritional Values
-THe nutritional values of interest will be reduced to the minimum required for calculating the "health" score: `calories`, `saturated fat`, `sugar`, and `protein`.
+The nutritional values of interest will be reduced to the minimum required for calculating the "health" score: `calories`, `saturated fat`, `sugar`, and `protein`.
 
 ## Approach
-### Data Analytics Paradigm
-The project is structured around the data analytics paradigm.
+### Food.com
 
-
-
-#### 2. Define Strategy and Metrics
-
-#### 3. Build a Data Retrieval Plan
-
-#### 4. Retrieve the Data
-
-#### 5. Assemble and Clean
-
-#### 6. Analyse or Trends
-
-#### 7. Acknowledge Limitations
-
-#### 8. Tell the Story
-
-#### Food.com
 
 ## Decision Points
 1. __Food.com meal types__. `dinner-party` is used in lieu of `dinner`, as it does not exist in the tag list.
