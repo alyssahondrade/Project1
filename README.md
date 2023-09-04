@@ -9,7 +9,7 @@ Github Repository at: [https://github.com/alyssahondrade/Project1.git](https://g
     2. [Repository Structure](https://github.com/alyssahondrade/Project1#repository-structure)
     3. [Dataset](https://github.com/alyssahondrade/Project1#dataset)
 2. [Approach](https://github.com/alyssahondrade/Project1#approach)
-3. [Analysis]
+3. [Analysis](https://github.com/alyssahondrade/Project1#analysis)
 4. [References](https://github.com/alyssahondrade/Project1#references)
 
 ## Introduction
@@ -26,26 +26,52 @@ The project will investigate recipe popularity, meal types, and cuisines.
 - `RAW_interactions.csv` and `RAW_recipes.csv` from [Kaggle - Food.com Recipes and Interactions](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?)
 - [Spoonacular API](https://spoonacular.com/food-api)
 
+## Scope
+### Research Questions
+1.	Are more popular / higher-rated recipes healthier? What is the health rating of the highest-rated recipes?
+2.	What meal type (i.e., breakfast, lunch, or dinner) have the healthiest/unhealthiest (percentage) recipes? What is the most popular ingredient for each meal?
+3.	Which cuisine has the healthiest recipes?
+
+### Nutritional Values
+THe nutritional values of interest will be reduced to the minimum required for calculating the "health" score: `calories`, `saturated fat`, `sugar`, and `protein`.
+
+### Meal Types
+Meal types will be narrowed down to `breakfast`, `lunch`, and `dinner`, or equivalents if unavailable.
+
 ## Approach
-Followed the Data Analytics Paradigm
+### Data Analytics Paradigm
+1. Decompose the Ask + Identify Data Sources
+    - The first two steps were conducted simultaneously in the project proposal phase.
+    - The research questions and data sources are provided in [Scope]
 
-### Decompose the Ask + Identify Data Sources
-The first two steps were conducted simultaneously in the project proposal phase
+2. Define Strategy and Metrics
 
-### Define Strategy and Metrics
+3. Build a Data Retrieval Plan
 
+4. Retrieve the Data
 
-### Build a Data Retrieval Plan
+5. Assemble and Clean
 
+6. Analyse or Trends
 
-### Retrieve the Data
+7. Acknowledge Limitations
 
+8. Tell the Story
 
-### Assemble and Clean
+#### Food.com
 
+## Decision Points
+1. Food.com - meal types - `dinner` is not a tag, use `dinner-party` instead.
+2. 
 
 ## Analysis
 
+### Results
+
+### Limitations
+
+
+## Future 
 
 ## References
 - [1] Weight Watchers Smart Points Calculator [https://www.watcherspoint.com/weight-watchers-smart-points-calculator](https://www.watcherspoint.com/weight-watchers-smart-points-calculator)
