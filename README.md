@@ -34,7 +34,9 @@ The project will investigate recipe popularity, meal types, and cuisines, and wi
 ### Repository Structure
 
 ### Dataset
-- `RAW_interactions.csv` and `RAW_recipes.csv` from [Kaggle - Food.com Recipes and Interactions](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?)
+-  [Kaggle - Food.com Recipes and Interactions](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?)
+    - `RAW_interactions.csv` from [https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_interactions.csv](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_interactions.csv)
+    - `RAW_recipes.csv` from [https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_recipes.csv](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_recipes.csv)
 - [Spoonacular API](https://spoonacular.com/food-api)
 
 ## Scope
@@ -73,7 +75,8 @@ The nutritional values of interest will be reduced to the minimum required for c
 
 ## Approach
 ### Food.com
-
+1. Import `RAW_recipes.csv` and `RAW_interactions.csv` as `food_df` and `interactions_df` respectively.
+2. Extract __ratings__ from 
 
 ## Decision Points
 1. __Food.com meal types__. `dinner-party` is used in lieu of `dinner`, as it does not exist in the tag list.
