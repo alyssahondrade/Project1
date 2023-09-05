@@ -197,9 +197,27 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 12. 
 
 ### Spoonacular API
-1. 
+1. API Testing
+    - Test types and outcomes:
+        - `Complex Search` and `Recipe Information`, returns the same recipes each time.
+        - `Random Recipes` and `Recipe Information`, returns random recipes but not cost-effective.
+        - `Random Recipes` and `Nutrition by ID`, identified as the more cost-effective method.
+        - `Complex Search` with comprehensive parameters, to ensure `cuisines` and `meal type` are relevant. Note: this still returns the same recipes each time, unless the parameters are updated. This method intended to bulk up the existing datasets.
+    - The general process is:
+        - Get a list of recipe IDs, often with generic metadata that lacks nutritional value information.
+        - Get a comprehensive report, with the nutritional value information.
+        - Export the raw data to a csv.
+        - Whilst the API response is active, parse information that would otherwise be converted to a list in the csv.
 
+2. Data Collection
+    - Functions:
+        - __Method 1 - `spoonacular_v1()`__: The `type` parameter distinguishes between the `Recipe Information` and `Nutrition by ID`.
+        - __Method 2 - `spoonacular_v2()`__: The most cost-efficient method, returning a single request with all the necessary details.
+    - Due to the iterative process with testing and limited API requests, the raw data folder had collected datasets of various formats. This means that the cleaning process needed to be staged, depending on raw dataset formatting.
+    - As the process is conducted in 2 stages, recipe information requests in the second stage was often incomplete. To optimise API requests, a list of recipe IDs with missing information is extracted from the raw datasets.
+    - __Method 3 - `spoonacular_v3()`__: A new data collection function is created to collect the recipe information only.
 
+3. 
 
 ## Decision Points
 1. __Food.com meal types__.
