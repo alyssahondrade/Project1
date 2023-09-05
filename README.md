@@ -71,7 +71,7 @@ The nutritional values of interest will be reduced to the minimum required for c
 
 `calories, saturated fat, sugar, protein`
 
-Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single serving [Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition), a necessary consideration when using the values for calculations.
+Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single serving [[Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition)], a necessary consideration when using the values for calculations.
 
 ## Approach
 ### Fields
@@ -211,11 +211,19 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 2. Data Collection
     - Functions:
-        - __Method 1 - `spoonacular_v1()`__: The `type` parameter distinguishes between the `Recipe Information` and `Nutrition by ID`.
+        - __Method 1 - `spoonacular_v1(type)`__: The `type` parameter distinguishes between the `Recipe Information` and `Nutrition by ID`.
         - __Method 2 - `spoonacular_v2()`__: The most cost-efficient method, returning a single request with all the necessary details.
+        - __Method 3 - `spoonacular_v3()`__: A new data collection function created to collect the recipe information only.
     - Due to the iterative process with testing and limited API requests, the raw data folder had collected datasets of various formats. This means that the cleaning process needed to be staged, depending on raw dataset formatting.
-    - As the process is conducted in 2 stages, recipe information requests in the second stage was often incomplete. To optimise API requests, a list of recipe IDs with missing information is extracted from the raw datasets.
-    - __Method 3 - `spoonacular_v3()`__: A new data collection function is created to collect the recipe information only.
+    - Get recipe IDs from raw data: As the process is conducted in 2 stages, recipe information requests in the second stage was often incomplete. To optimise API requests, a list of recipe IDs with missing information is extracted from the raw datasets.
+        - Look through `Resources/01_recipe_IDs` and `Resources/02_raw_data` subdirectories for a list of all recipe IDs collected.
+        - Look through `Resources/03_simplified_data` and `Resources/04_complex_test` subdirectories for a list of all recipes with recipe information.
+        - Identify the recipes that are missing recipe information using the `difference()` method given sets.
+        - Use `spoonacular_v3()` to get the data, given recipe IDs.
+    - Append the missing data to the simplified datasets, given two sources:
+        - From another column of the same dataset, OR
+        - From the raw datasets.
+    - Use the function `get_nutrition(string, nutritional_value)` to parse the correct nutritional values from the string.
 
 3. 
 
