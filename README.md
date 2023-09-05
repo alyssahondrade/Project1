@@ -231,5 +231,10 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 - [] Change Space between Bars when drawing multiple Barplots in Pandas [https://stackoverflow.com/questions/34674558/how-to-change-space-between-bars-when-drawing-multiple-barplots-in-pandas](https://stackoverflow.com/questions/34674558/how-to-change-space-between-bars-when-drawing-multiple-barplots-in-pandas)
 
+- [] Geoapify's Geocoding API [https://www.geoapify.com/geocoding-api](https://www.geoapify.com/geocoding-api)
+
+- [] Holoviews Tiles [https://holoviews.org/reference/elements/bokeh/Tiles.html](https://holoviews.org/reference/elements/bokeh/Tiles.html)
+
+- []
 ### Future Research
 - [] How To Find When A Website Was First Published Or Launched [https://www.alphr.com/find-when-website-published-launched/](https://www.alphr.com/find-when-website-published-launched/)
