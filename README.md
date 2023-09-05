@@ -159,8 +159,37 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
     - Explore outliers in the `minutes` column, and remove:
         - Recipes with `minutes` greater than the calculated upper bounds, and
         - Recipes with `0` minutes
-8. 
-9. 
+    - Explore outliers in the `wws_points` column:
+        - Create a histogram to gain an understanding of the data distribution.
+        - 
+
+8. Nutritional Values Correlation
+    - Calculate the correlation matrix between:
+
+        `rating, Calories, Total Fat (PDV), Sugar (PDV), Sodium (PDV), Protein (PDV), Saturated Fat (PDV), Carbohydrates (PDV)`
+
+9. Initial Visualisation
+    - Meal Types, for each type:
+        - Create a groupby `meal_type` DataFrame, calculating the median as it is a skewed dataset.
+        - Create a bin based on the minimum and maximum `wws_points`, to bin the DataFrame to these ranges.
+        - Create a plot with the:
+            - Binned `wws_points` as the x-axis
+            - `rating` as the y-axis
+            - `protein_g` as the bubble size
+            - A nutritional value as the bubble colour
+        - Calculate the median `wws_points`, set this as the limit for "healthiness".
+            - Calculate the percentages of each meal type that sit above this limit.
+            - Create a bar chart of the average `wws_points` for each meal type.
+            - Sort the dataset by the percentage value, as it is visually easier to understand and mentall sort the bar size compared to the written percentage value.
+            - Annotate the percentage value over the corresponding meal type for clarity.
+    - Cuisines
+    - Popularity
+    - 5-Star Ratings
+    - Lowest WW Smart Points
+
+10. 
+11. 
+12. 
 
 ### Spoonacular API
 1. 
