@@ -10,14 +10,8 @@ Github Repository at: [https://github.com/alyssahondrade/Project1.git](https://g
     3. [Dataset](https://github.com/alyssahondrade/Project1#dataset)
 2. [Scope](https://github.com/alyssahondrade/Project1#scope)
 3. [Approach](https://github.com/alyssahondrade/Project1#approach)
-    1. [Decompose the Ask + Identify Data Sources]
-    2. [Define Strategy and Metrics]
-    3. [Build a Data Retrieval Plan]
-    4. [Retrieve the Data]
-    5. [Assemble and Clean]
-    6. [Analyse or Trends]
-    7. [Acknowledge Limitations]
-    8.    
+    1. [Fields](https://github.com/alyssahondrade/Project1#fields)
+    2.  
 4. [Decision Points](https://github.com/alyssahondrade/Project1#decision-points)
 5. [Analysis](https://github.com/alyssahondrade/Project1#analysis)
 6. [Future Research](https://github.com/alyssahondrade/Project1#future-research)
@@ -166,7 +160,7 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 8. Nutritional Values Correlation
     - Calculate the correlation matrix between:
 
-        `rating, Calories, Total Fat (PDV), Sugar (PDV), Sodium (PDV), Protein (PDV), Saturated Fat (PDV), Carbohydrates (PDV)`
+        `'Rating', 'Calories', 'Total Fat (PDV)', 'Sugar (PDV)', 'Sodium (PDV)', 'Protein (PDV)', 'Saturated Fat (PDV)', 'Carbohydrates (PDV)'`
 
 9. Initial Visualisation
     - Meal Types, for each type:
@@ -183,6 +177,17 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
             - Sort the dataset by the percentage value, as it is visually easier to understand and mentall sort the bar size compared to the written percentage value.
             - Annotate the percentage value over the corresponding meal type for clarity.
     - Cuisines
+        - As with meal types, repeat the process for cuisines.
+        - Using Geoapify's Geocoding API, request the latitude and longitude for the following cuisine regions as equivalents:
+
+             `Congo, 'Louisiana, USA', 'Caribbean', 'France', 'German', 'Greece', 'India',
+       'Ireland', 'Japan', 'Korea', 'Mexico', 'Spain', 'Thailand', 'Vietnam'`
+        
+        - Append the acquired latitudes and longitudes as a new column to the binned DataFrame.
+        - Create a map visualisation given:
+            - `rating` as the bubble colour
+            - `wws_points` as the bubble sizes
+            - `CartoLight` for the tiles
     - Popularity
     - 5-Star Ratings
     - Lowest WW Smart Points
@@ -197,9 +202,18 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 
 ## Decision Points
-1. __Food.com meal types__. `dinner-party` is used in lieu of `dinner`, as it does not exist in the tag list.
-2. __Negative WW Smart Points__. Although the WW Smart Points system does not allow for negative points, calculated negative values are allowed to present a wider range of values.
-3. __Cuisine Match__. Removed `Asian` and `European` from the list of cuisines to match. Doing so improved the range of available cuisines for the cuisine analysis. Finally, also removed `American` as it account for greater than the rest of the cuisines put together.
+1. __Food.com meal types__.
+
+    `dinner-party` is used in lieu of `dinner`, as it does not exist in the tag list.
+
+2. __Negative WW Smart Points__.
+
+    Although the WW Smart Points system does not allow for negative points, calculated negative values are allowed to present a wider range of values.
+
+3. __Cuisine Match__.
+
+- Removed `Asian` and `European` from the list of cuisines to match. Doing so improved the range of available cuisines for the cuisine analysis.
+- Also removed `American` as it accounted for greater than the rest of the cuisines put together.
 
 
 ## Analysis
@@ -211,12 +225,15 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 ## Future Research
 - __Longitudinal: Nutritional Value and Recipe Rating Evolution__
+
     Determine how recipe ratings and nutritional values change over time. The Food.com dataset has the date of each review, as well as the date the recipe is submitted. For Spoonacular, as the source URL for each recipe is provided, it is possible to determine the exact date using a few methods, such as Google's "inurl" functionality.
 
 - __Ingredients Classification: Food Group Percentage as Measure of Healthiness__
+
     Given a recipe, identify the percentage breakdown per food group. This requires an ML classification model to categorise to the food groups. A pie chart can be used to visually display the breakdown and inform decision making around food and diet.
 
 - __Spoonacular's 'Taste by ID' and Preferences__
+
     Spoonacular's widget scores each recipe's:
 
         `sweetness, saltiness, sourness, bitterness, savoriness, fattiness, spiciness`
@@ -224,6 +241,7 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
     Based on the user's preferences and tastes, return healthy recipes by percentage of similarity. This tool can be used to improve diets whilst also considering the user's preferences and tastes.
 
 - __Regional Recipe Investigation__
+
     Since cuisines for `American, Asian, European` were removed, can investigate these broad cuisines more closely.
 
 
