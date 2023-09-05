@@ -170,7 +170,7 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 ## Decision Points
 1. __Food.com meal types__. `dinner-party` is used in lieu of `dinner`, as it does not exist in the tag list.
 2. __Negative WW Smart Points__. Although the WW Smart Points system does not allow for negative points, calculated negative values are allowed to present a wider range of values.
-3. __Cuisine Match__. Removed `Asian` and `European` from the list of cuisines to match. Doing so improved the range of available cuisines for the cuisine analysis.
+3. __Cuisine Match__. Removed `Asian` and `European` from the list of cuisines to match. Doing so improved the range of available cuisines for the cuisine analysis. Finally, also removed `American` as it account for greater than the rest of the cuisines put together.
 
 
 ## Analysis
@@ -193,6 +193,10 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
         `sweetness, saltiness, sourness, bitterness, savoriness, fattiness, spiciness`
 
     Based on the user's preferences and tastes, return healthy recipes by percentage of similarity. This tool can be used to improve diets whilst also considering the user's preferences and tastes.
+
+- __Regional Recipe Investigation__
+    Since cuisines for `American, Asian, European` were removed, can investigate these broad cuisines more closely.
+
 
 ## References
 
