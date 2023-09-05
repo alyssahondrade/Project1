@@ -215,6 +215,11 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 - Removed `Asian` and `European` from the list of cuisines to match. Doing so improved the range of available cuisines for the cuisine analysis.
 - Also removed `American` as it accounted for greater than the rest of the cuisines put together.
 
+4. __Ingredients__.
+
+    Explored whether it was feasible to use the ingredients, grouped by food groups, as another measure of healthiness or point of interest. Although it was possible to parse the unique list of ingredients, a machine learning model is required to classify this. A brief search online identified there is no API or online tool that solves this problem, and due to project resourcing and time restraints, this has been identified as future research instead.
+
+5. 
 
 ## Analysis
 
