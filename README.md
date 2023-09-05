@@ -119,7 +119,8 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
     - Identify whether the minimum required tags exist in the `tags` column, otherwise, identify alternatives.
     - The function `parse_tags()` takes an input list (to search for in the `tags` column), the DataFrame to search, and the column name to save. This returns a count of each unique tag that exists in the DataFrame.
-    - Reduce the merged DataFrame to rows with only one meal type.
+    - Reduce the merged DataFrame to rows with only one meal or cuisine type.
+    - Add columns for the derived meal or cuisine value.
 
 5. Convert the `nutrition` column to nutritional values.
     - The list in the column corresponds to the following [Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition):
@@ -164,12 +165,12 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 ### Spoonacular API
 1. 
 
-### UNCATEGORISED
-- Divide the nutritional values by the `servings` column (Spoonacular) - might not need this, since can also use the PDV? just check the calculations against the amount. Then calculate the WW smart points and compare to the Spoonacular values. Since Food.com gives the nutritional values in PDV, this assumes a single serving.
+
 
 ## Decision Points
 1. __Food.com meal types__. `dinner-party` is used in lieu of `dinner`, as it does not exist in the tag list.
 2. __Negative WW Smart Points__. Although the WW Smart Points system does not allow for negative points, calculated negative values are allowed to present a wider range of values.
+3. __Cuisine Match__. Removed `Asian` and `European` from the list of cuisines to match. Doing so improved the range of available cuisines for the cuisine analysis.
 
 
 ## Analysis
@@ -184,10 +185,18 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
     Determine how recipe ratings and nutritional values change over time. The Food.com dataset has the date of each review, as well as the date the recipe is submitted. For Spoonacular, as the source URL for each recipe is provided, it is possible to determine the exact date using a few methods, such as Google's "inurl" functionality.
 
 - __Ingredients Classification: Food Group Percentage as Measure of Healthiness__
+    Given a recipe, identify the percentage breakdown per food group. This requires an ML classification model to categorise to the food groups. A pie chart can be used to visually display the breakdown and inform decision making around food and diet.
 
+- __Spoonacular's 'Taste by ID' and Preferences__
+    Spoonacular's widget scores each recipe's:
 
+        `sweetness, saltiness, sourness, bitterness, savoriness, fattiness, spiciness`
+
+    Based on the user's preferences and tastes, return healthy recipes by percentage of similarity. This tool can be used to improve diets whilst also considering the user's preferences and tastes.
 
 ## References
+
+### Research Concept
 - [1] Weight Watchers Smart Points Calculator [https://www.watcherspoint.com/weight-watchers-smart-points-calculator](https://www.watcherspoint.com/weight-watchers-smart-points-calculator)
 
 - [2] Nutri-Score - A Simple Science-Based Nutritional Value Labelling System for the Food Industry [https://get.apicbase.com/nutri-score-science-based-nutritional-value-labelling-system/](https://get.apicbase.com/nutri-score-science-based-nutritional-value-labelling-system/)
@@ -196,13 +205,27 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 - [4] How to Understand and Use the Nutrition Facts Label [https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label](https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label)
 
-- [5] How to Import Functions from Another Jupyter Notebook [https://saturncloud.io/blog/how-to-import-functions-from-another-jupyter-notebook/](https://saturncloud.io/blog/how-to-import-functions-from-another-jupyter-notebook/)
+### Python Coding
+- [] List all Subdirectories in a Directory Python [https://www.techiedelight.com/list-all-subdirectories-in-directory-python/](https://www.techiedelight.com/list-all-subdirectories-in-directory-python/)
 
-- 
+- [] Iterate over Files in a Directory [https://www.geeksforgeeks.org/how-to-iterate-over-files-in-directory-using-python/](https://www.geeksforgeeks.org/how-to-iterate-over-files-in-directory-using-python/)
 
+- [] Python `os direntry` name attribute [https://www.geeksforgeeks.org/python-os-direntry-name-attribute/](https://www.geeksforgeeks.org/python-os-direntry-name-attribute/)
+
+- [] Python string `find()` with examples [https://sparkbyexamples.com/python/python-string-find-with-examples/](https://sparkbyexamples.com/python/python-string-find-with-examples/)
+
+- [] Print common elements between two lists [https://www.geeksforgeeks.org/python-print-common-elements-two-lists/](https://www.geeksforgeeks.org/python-print-common-elements-two-lists/)
+
+- [] How to Import Functions from Another Jupyter Notebook [https://saturncloud.io/blog/how-to-import-functions-from-another-jupyter-notebook/](https://saturncloud.io/blog/how-to-import-functions-from-another-jupyter-notebook/)
+
+- [] Python function documentation example [https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+
+### Data Visualisation
+- [] Bubble Plots in Python [https://www.askpython.com/python/examples/bubble-plots-in-python](https://www.askpython.com/python/examples/bubble-plots-in-python)
 
 - [] Making a Heatmap from Pandas DataFrame [https://stackoverflow.com/questions/12286607/making-heatmap-from-pandas-dataframe](https://stackoverflow.com/questions/12286607/making-heatmap-from-pandas-dataframe)
 
 - [] Change Space between Bars when drawing multiple Barplots in Pandas [https://stackoverflow.com/questions/34674558/how-to-change-space-between-bars-when-drawing-multiple-barplots-in-pandas](https://stackoverflow.com/questions/34674558/how-to-change-space-between-bars-when-drawing-multiple-barplots-in-pandas)
 
+### Future Research
 - [] How To Find When A Website Was First Published Or Launched [https://www.alphr.com/find-when-website-published-launched/](https://www.alphr.com/find-when-website-published-launched/)
