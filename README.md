@@ -236,7 +236,7 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
     Spoonacular's widget scores each recipe's:
 
-        `sweetness, saltiness, sourness, bitterness, savoriness, fattiness, spiciness`
+    `sweetness, saltiness, sourness, bitterness, savoriness, fattiness, spiciness`
 
     Based on the user's preferences and tastes, return healthy recipes by percentage of similarity. This tool can be used to improve diets whilst also considering the user's preferences and tastes.
 
