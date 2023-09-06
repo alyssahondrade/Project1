@@ -253,6 +253,15 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 ### Results
 
+#### Question 1 - Are more popular/higher-rated recipes healthier? What is the health rating of the highest-rated recipes?
+
+
+#### Question 2 - What meal type (i.e., breakfast, lunch, or dinner) have the healthiest/unhealthiest (percentage) recipes? What is the most popular ingredient for each meal?
+
+
+#### Question 3 - Which cuisine has the healthiest recipes?
+
+
 ### Limitations
 
 
