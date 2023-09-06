@@ -10,14 +10,8 @@ Github Repository at: [https://github.com/alyssahondrade/Project1.git](https://g
     3. [Dataset](https://github.com/alyssahondrade/Project1#dataset)
 2. [Scope](https://github.com/alyssahondrade/Project1#scope)
 3. [Approach](https://github.com/alyssahondrade/Project1#approach)
-    1. [Decompose the Ask + Identify Data Sources]
-    2. [Define Strategy and Metrics]
-    3. [Build a Data Retrieval Plan]
-    4. [Retrieve the Data]
-    5. [Assemble and Clean]
-    6. [Analyse or Trends]
-    7. [Acknowledge Limitations]
-    8.    
+    1. [Fields](https://github.com/alyssahondrade/Project1#fields)
+    2.  
 4. [Decision Points](https://github.com/alyssahondrade/Project1#decision-points)
 5. [Analysis](https://github.com/alyssahondrade/Project1#analysis)
 6. [Future Research](https://github.com/alyssahondrade/Project1#future-research)
@@ -42,7 +36,9 @@ The project will investigate recipe popularity, meal types, and cuisines, and wi
 ## Scope
 ### Research Questions
 1.	Are more popular/higher-rated recipes healthier? What is the health rating of the highest-rated recipes?
+
 2.	What meal type (i.e., breakfast, lunch, or dinner) have the healthiest/unhealthiest (percentage) recipes? What is the most popular ingredient for each meal?
+
 3.	Which cuisine has the healthiest recipes?
 
 ### Question Decomposition
@@ -75,7 +71,7 @@ The nutritional values of interest will be reduced to the minimum required for c
 
 `calories, saturated fat, sugar, protein`
 
-Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single serving [Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition), a necessary consideration when using the values for calculations.
+Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single serving [[Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition)], a necessary consideration when using the values for calculations.
 
 ## Approach
 ### Fields
@@ -117,7 +113,8 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
     - Identify whether the minimum required tags exist in the `tags` column, otherwise, identify alternatives.
     - The function `parse_tags()` takes an input list (to search for in the `tags` column), the DataFrame to search, and the column name to save. This returns a count of each unique tag that exists in the DataFrame.
-    - Reduce the merged DataFrame to rows with only one meal type.
+    - Reduce the merged DataFrame to rows with only one meal or cuisine type.
+    - Add columns for the derived meal or cuisine value.
 
 5. Convert the `nutrition` column to nutritional values.
     - The list in the column corresponds to the following [Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition):
@@ -156,19 +153,99 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
     - Explore outliers in the `minutes` column, and remove:
         - Recipes with `minutes` greater than the calculated upper bounds, and
         - Recipes with `0` minutes
-8. 
-9. 
+    - Explore outliers in the `wws_points` column:
+        - Create a histogram to gain an understanding of the data distribution.
+        - 
+
+8. Nutritional Values Correlation
+    - Calculate the correlation matrix between:
+
+        `'Rating', 'Calories', 'Total Fat (PDV)', 'Sugar (PDV)', 'Sodium (PDV)', 'Protein (PDV)', 'Saturated Fat (PDV)', 'Carbohydrates (PDV)'`
+
+9. Initial Visualisation
+    - Meal Types, for each type:
+        - Create a groupby `meal_type` DataFrame, calculating the median as it is a skewed dataset.
+        - Create a bin based on the minimum and maximum `wws_points`, to bin the DataFrame to these ranges.
+        - Create a plot with the:
+            - Binned `wws_points` as the x-axis
+            - `rating` as the y-axis
+            - `protein_g` as the bubble size
+            - A nutritional value as the bubble colour
+        - Calculate the median `wws_points`, set this as the limit for "healthiness".
+            - Calculate the percentages of each meal type that sit above this limit.
+            - Create a bar chart of the average `wws_points` for each meal type.
+            - Sort the dataset by the percentage value, as it is visually easier to understand and mentall sort the bar size compared to the written percentage value.
+            - Annotate the percentage value over the corresponding meal type for clarity.
+    - Cuisines
+        - As with meal types, repeat the process for cuisines.
+        - Using Geoapify's Geocoding API, request the latitude and longitude for the following cuisine regions as equivalents:
+
+             `Congo, 'Louisiana, USA', 'Caribbean', 'France', 'German', 'Greece', 'India',
+       'Ireland', 'Japan', 'Korea', 'Mexico', 'Spain', 'Thailand', 'Vietnam'`
+        
+        - Append the acquired latitudes and longitudes as a new column to the binned DataFrame.
+        - Create a map visualisation given:
+            - `rating` as the bubble colour
+            - `wws_points` as the bubble sizes
+            - `CartoLight` for the tiles
+    - Popularity
+    - 5-Star Ratings
+    - Lowest WW Smart Points
+
+10. 
+11. 
+12. 
 
 ### Spoonacular API
-1. 
+1. API Testing
+    - Test types and outcomes:
+        - `Complex Search` and `Recipe Information`, returns the same recipes each time.
+        - `Random Recipes` and `Recipe Information`, returns random recipes but not cost-effective.
+        - `Random Recipes` and `Nutrition by ID`, identified as the more cost-effective method.
+        - `Complex Search` with comprehensive parameters, to ensure `cuisines` and `meal type` are relevant. Note: this still returns the same recipes each time, unless the parameters are updated. This method intended to bulk up the existing datasets.
+    - The general process is:
+        - Get a list of recipe IDs, often with generic metadata that lacks nutritional value information.
+        - Get a comprehensive report, with the nutritional value information.
+        - Export the raw data to a csv.
+        - Whilst the API response is active, parse information that would otherwise be converted to a list in the csv.
 
-### UNCATEGORISED
-- Divide the nutritional values by the `servings` column (Spoonacular) - might not need this, since can also use the PDV? just check the calculations against the amount. Then calculate the WW smart points and compare to the Spoonacular values. Since Food.com gives the nutritional values in PDV, this assumes a single serving.
+2. Data Collection
+    - Functions:
+        - __Method 1 - `spoonacular_v1(type)`__: The `type` parameter distinguishes between the `Recipe Information` and `Nutrition by ID`.
+        - __Method 2 - `spoonacular_v2()`__: The most cost-efficient method, returning a single request with all the necessary details.
+        - __Method 3 - `spoonacular_v3()`__: A new data collection function created to collect the recipe information only.
+    - Due to the iterative process with testing and limited API requests, the raw data folder had collected datasets of various formats. This means that the cleaning process needed to be staged, depending on raw dataset formatting.
+    - Get recipe IDs from raw data: As the process is conducted in 2 stages, recipe information requests in the second stage was often incomplete. To optimise API requests, a list of recipe IDs with missing information is extracted from the raw datasets.
+        - Look through `Resources/01_recipe_IDs` and `Resources/02_raw_data` subdirectories for a list of all recipe IDs collected.
+        - Look through `Resources/03_simplified_data` and `Resources/04_complex_test` subdirectories for a list of all recipes with recipe information.
+        - Identify the recipes that are missing recipe information using the `difference()` method given sets.
+        - Use `spoonacular_v3()` to get the data, given recipe IDs.
+    - Append the missing data to the simplified datasets, given two sources:
+        - From another column of the same dataset, OR
+        - From the raw datasets.
+    - Use the function `get_nutrition(string, nutritional_value)` to parse the correct nutritional values from the string.
+
+3. 
 
 ## Decision Points
-1. __Food.com meal types__. `dinner-party` is used in lieu of `dinner`, as it does not exist in the tag list.
-2. __Negative WW Smart Points__. Although the WW Smart Points system does not allow for negative points, calculated negative values are allowed to present a wider range of values.
+1. __Food.com meal types__.
 
+    `dinner-party` is used in lieu of `dinner`, as it does not exist in the tag list.
+
+2. __Negative WW Smart Points__.
+
+    Although the WW Smart Points system does not allow for negative points, calculated negative values are allowed to present a wider range of values.
+
+3. __Cuisine Match__.
+
+- Removed `Asian` and `European` from the list of cuisines to match. Doing so improved the range of available cuisines for the cuisine analysis.
+- Also removed `American` as it accounted for greater than the rest of the cuisines put together.
+
+4. __Ingredients__.
+
+    Explored whether it was feasible to use the ingredients, grouped by food groups, as another measure of healthiness or point of interest. Although it was possible to parse the unique list of ingredients, a machine learning model is required to classify this. A brief search online identified there is no API or online tool that solves this problem, and due to project resourcing and time restraints, this has been identified as future research instead.
+
+5. 
 
 ## Analysis
 
@@ -179,9 +256,29 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 ## Future Research
 - __Longitudinal: Nutritional Value and Recipe Rating Evolution__
+
     Determine how recipe ratings and nutritional values change over time. The Food.com dataset has the date of each review, as well as the date the recipe is submitted. For Spoonacular, as the source URL for each recipe is provided, it is possible to determine the exact date using a few methods, such as Google's "inurl" functionality.
 
+- __Ingredients Classification: Food Group Percentage as Measure of Healthiness__
+
+    Given a recipe, identify the percentage breakdown per food group. This requires an ML classification model to categorise to the food groups. A pie chart can be used to visually display the breakdown and inform decision making around food and diet.
+
+- __Spoonacular's 'Taste by ID' and Preferences__
+
+    Spoonacular's widget scores each recipe's:
+
+    `sweetness, saltiness, sourness, bitterness, savoriness, fattiness, spiciness`
+
+    Based on the user's preferences and tastes, return healthy recipes by percentage of similarity. This tool can be used to improve diets whilst also considering the user's preferences and tastes.
+
+- __Regional Recipe Investigation__
+
+    Since cuisines for `American, Asian, European` were removed, can investigate these broad cuisines more closely.
+
+
 ## References
+
+### Research Concept
 - [1] Weight Watchers Smart Points Calculator [https://www.watcherspoint.com/weight-watchers-smart-points-calculator](https://www.watcherspoint.com/weight-watchers-smart-points-calculator)
 
 - [2] Nutri-Score - A Simple Science-Based Nutritional Value Labelling System for the Food Industry [https://get.apicbase.com/nutri-score-science-based-nutritional-value-labelling-system/](https://get.apicbase.com/nutri-score-science-based-nutritional-value-labelling-system/)
@@ -190,9 +287,32 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 - [4] How to Understand and Use the Nutrition Facts Label [https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label](https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label)
 
+### Python Coding
+- [] List all Subdirectories in a Directory Python [https://www.techiedelight.com/list-all-subdirectories-in-directory-python/](https://www.techiedelight.com/list-all-subdirectories-in-directory-python/)
 
+- [] Iterate over Files in a Directory [https://www.geeksforgeeks.org/how-to-iterate-over-files-in-directory-using-python/](https://www.geeksforgeeks.org/how-to-iterate-over-files-in-directory-using-python/)
 
+- [] Python `os direntry` name attribute [https://www.geeksforgeeks.org/python-os-direntry-name-attribute/](https://www.geeksforgeeks.org/python-os-direntry-name-attribute/)
 
+- [] Python string `find()` with examples [https://sparkbyexamples.com/python/python-string-find-with-examples/](https://sparkbyexamples.com/python/python-string-find-with-examples/)
 
+- [] Print common elements between two lists [https://www.geeksforgeeks.org/python-print-common-elements-two-lists/](https://www.geeksforgeeks.org/python-print-common-elements-two-lists/)
 
+- [] How to Import Functions from Another Jupyter Notebook [https://saturncloud.io/blog/how-to-import-functions-from-another-jupyter-notebook/](https://saturncloud.io/blog/how-to-import-functions-from-another-jupyter-notebook/)
+
+- [] Python function documentation example [https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+
+### Data Visualisation
+- [] Bubble Plots in Python [https://www.askpython.com/python/examples/bubble-plots-in-python](https://www.askpython.com/python/examples/bubble-plots-in-python)
+
+- [] Making a Heatmap from Pandas DataFrame [https://stackoverflow.com/questions/12286607/making-heatmap-from-pandas-dataframe](https://stackoverflow.com/questions/12286607/making-heatmap-from-pandas-dataframe)
+
+- [] Change Space between Bars when drawing multiple Barplots in Pandas [https://stackoverflow.com/questions/34674558/how-to-change-space-between-bars-when-drawing-multiple-barplots-in-pandas](https://stackoverflow.com/questions/34674558/how-to-change-space-between-bars-when-drawing-multiple-barplots-in-pandas)
+
+- [] Geoapify's Geocoding API [https://www.geoapify.com/geocoding-api](https://www.geoapify.com/geocoding-api)
+
+- [] Holoviews Tiles [https://holoviews.org/reference/elements/bokeh/Tiles.html](https://holoviews.org/reference/elements/bokeh/Tiles.html)
+
+- []
+### Future Research
 - [] How To Find When A Website Was First Published Or Launched [https://www.alphr.com/find-when-website-published-launched/](https://www.alphr.com/find-when-website-published-launched/)
