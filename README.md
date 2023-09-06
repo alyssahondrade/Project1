@@ -14,6 +14,8 @@ Github Repository at: [https://github.com/alyssahondrade/Project1.git](https://g
     2.  
 4. [Decision Points](https://github.com/alyssahondrade/Project1#decision-points)
 5. [Analysis](https://github.com/alyssahondrade/Project1#analysis)
+    1. [Results](https://github.com/alyssahondrade/Project1/tree/main#results)
+    2. [Limitations](https://github.com/alyssahondrade/Project1/tree/main#limitations)
 6. [Future Research](https://github.com/alyssahondrade/Project1#future-research)
 7. [References](https://github.com/alyssahondrade/Project1#references)
 
@@ -309,6 +311,7 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 - [] Holoviews Tiles [https://holoviews.org/reference/elements/bokeh/Tiles.html](https://holoviews.org/reference/elements/bokeh/Tiles.html)
 
-- []
+- [] Setting Different Bar Color in Matplotlib [https://www.tutorialspoint.com/setting-different-bar-color-in-matplotlib](https://www.tutorialspoint.com/setting-different-bar-color-in-matplotlib)
+
 ### Future Research
 - [] How To Find When A Website Was First Published Or Launched [https://www.alphr.com/find-when-website-published-launched/](https://www.alphr.com/find-when-website-published-launched/)
