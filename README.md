@@ -314,6 +314,10 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 - [] Python function documentation example [https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
 
 ### Data Visualisation
+- [] Matplotlib - Iterate Subplot Axis Array through Single List [https://stackoverflow.com/questions/20288842/matplotlib-iterate-subplot-axis-array-through-single-list](https://stackoverflow.com/questions/20288842/matplotlib-iterate-subplot-axis-array-through-single-list)
+
+- [] How to set spacing between subplots in Matplotlib [https://www.geeksforgeeks.org/how-to-set-the-spacing-between-subplots-in-matplotlib-in-python/](https://www.geeksforgeeks.org/how-to-set-the-spacing-between-subplots-in-matplotlib-in-python/)
+
 - [] Bubble Plots in Python [https://www.askpython.com/python/examples/bubble-plots-in-python](https://www.askpython.com/python/examples/bubble-plots-in-python)
 
 - [] Making a Heatmap from Pandas DataFrame [https://stackoverflow.com/questions/12286607/making-heatmap-from-pandas-dataframe](https://stackoverflow.com/questions/12286607/making-heatmap-from-pandas-dataframe)
