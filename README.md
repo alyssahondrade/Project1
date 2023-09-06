@@ -31,9 +31,13 @@ The project will investigate recipe popularity, meal types, and cuisines, and wi
 
 ### Dataset
 -  [Kaggle - Food.com Recipes and Interactions](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?)
-    - `RAW_interactions.csv` from [https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_interactions.csv](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_interactions.csv)
-    - `RAW_recipes.csv` from [https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_recipes.csv](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_recipes.csv)
+
+    The dataset consists of more than 180,000 recipes and over 700,000 recipe reviews over 18 years of user interactions and recipe submissions.
+    - `RAW_interactions.csv` available from [[Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_interactions.csv)]
+    - `RAW_recipes.csv` available from [[Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_recipes.csv)]
+
 - [Spoonacular API](https://spoonacular.com/food-api)
+
 
 ## Scope
 ### Research Questions
