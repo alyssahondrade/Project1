@@ -33,7 +33,6 @@ The goal of the project is to compare recipes from two popular recipe websites, 
 The project will investigate recipe popularity, meal types, and cuisines, and will be conducted as per the data analytics paradigm.
 
 ### Repository Structure
-
 - `Images/` subdirectory contains the output figures as well as the flowchart images.
 - `Output/` subdirectory contains the cleaned data, as a csv, for input to `recipe_exploration.ipynb`
 - `Resources/` subdirectory contains the raw datasets, and the following subdirectories:
@@ -100,8 +99,16 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 5. Cuisine, as with the meal type.
 
+6. The ingredients per recipe, to parse the most used ingredient per meal type.
+
 #### Additional
-1. 
+1. Cooking time. The recipes of interest would be limited to within reasonable cooking timeframes (i.e. the dataset will be removing recipes which require fermenting and other long prep times in general).
+
+2. Date submitted. This would allow for opportunity to do a longitudinal study later.
+
+3. The number of ingredients. To explore whether recipes with less or more ingredients are more popular, or which meal type has more ingredients per recipe.
+
+4. The number of steps. To explore whether "easier" recipes are more popular.
 
 ### Food.com
 
@@ -174,7 +181,7 @@ The flowchart below summarises the process.
         - Recipes with `0` minutes
     - Explore outliers in the `wws_points` column:
         - Create a histogram to gain an understanding of the data distribution.
-        - 
+        - Result: NOT A NORMAL DISTRIBUTION, meaning `median()` is preferred over `mean()`.
 
 8. Nutritional Values Correlation
     - Calculate the correlation matrix between:
@@ -207,13 +214,6 @@ The flowchart below summarises the process.
             - `rating` as the bubble colour
             - `wws_points` as the bubble sizes
             - `CartoLight` for the tiles
-    - Popularity
-    - 5-Star Ratings
-    - Lowest WW Smart Points
-
-10. 
-11. 
-12. 
 
 ### Spoonacular API
 
@@ -253,7 +253,41 @@ The diagram below summarises the Spoonacular cleaning process until the point wh
         - From the raw datasets.
     - Use the function `get_nutrition(string, nutritional_value)` to parse the correct nutritional values from the string.
 
-3. 
+3. Get Recipe IDs from Raw Data
+    - Loop over the subdirectories and identify which recipe IDs are missing information.
+    - Isolate the recipe IDs with missing information.
+    - Two possibilities where the data might come from:
+        - Data is in the same DataFrame: Find the correct column and parse the information.
+        - Data is not in the same DataFrame: Loop over the raw subdirectories and get the information from there.
+
+4. Extract the Meal Types
+    - Isolate the cuisine column and identify recipes with either none or more than one cuisine.
+    - RESULT: Reduced the recipes from 1600+ to 180 recipes, decision to stop here.
+
+### Data Visualisation
+
+1. Setup
+    - Import clean dataset, exported from `recipe_exploration.ipynb` as [`clean_recipes.csv`](https://github.com/alyssahondrade/Project1/blob/main/Output/clean_recipes.csv).
+    - Display the DataFrame head to confirm the imported dataset.
+
+2. Distribution: confirm the distribution of the WW Smart Points, and confirm the use of `median()` instead of `mean()`.
+
+3. Popularity
+    - Understand the difference between the `mean()` and `median()` values for healthy and unhealthy recipes.
+    - Create a plot that answers the first question: Bin the points and plot the count per recipe.
+    - Sort by the lowest WW Smart Points, to denote healthiness, and report the top 10 recipes.
+
+4. Meal Types
+    - Create a plot of the count of recipes per meal type.
+        - Annotate the percentage of recipes per meal type above the bar chart.
+        - Change the colour of the "best" meal type to green.
+    - Create plots of the nutritional values, as outlined in initial visualisation in the previous section.
+    - Find the top ingredients by using a loop and finding the ingredient most common in the recipes.
+
+5. Cuisines
+    - Create a histogram of the number of recipes per cuisine. This will influence the interpretation of the percentage of healthy recipes per cuisine.
+    - Create a bar chart that answers the question: sort by the percentage of healthy recipes, as with the meal types.
+    - Create a map visualisation of the cuisines around the world.
 
 ## Decision Points
 1. __Food.com meal types__.
@@ -273,7 +307,9 @@ The diagram below summarises the Spoonacular cleaning process until the point wh
 
     Explored whether it was feasible to use the ingredients, grouped by food groups, as another measure of healthiness or point of interest. Although it was possible to parse the unique list of ingredients, a machine learning model is required to classify this. A brief search online identified there is no API or online tool that solves this problem, and due to project resourcing and time restraints, this has been identified as future research instead.
 
-5. 
+5. __Spoonacular Dataset__
+
+    When reducing the dataset to a single meal type, the dataset decreased from 1600+ repies to 180 recipes. It is not reasonable to merge this data with the Food.com dataset.
 
 ## Analysis
 
@@ -353,7 +389,6 @@ The figure below shows a plot of the average WW Smart Points for each cuisine. A
 
 ![Question 3 - Percentage of Healthy Recipes per Cuisine](https://github.com/alyssahondrade/Project1/assets/129482049/3791cd47-9f07-437c-acc4-0d8376d61a40)
 
-
 Finally, the figure below is a visual representation of where each cuisine is located around the world.
 - The size of the bubble represents the average WW Smart Point, meaning the bigger the bubble the less healthy recipes tend to be.
 - The colour of the bubble represents the average rating, meaning the darker the colour, the higher the average rating.
@@ -363,11 +398,18 @@ Finally, the figure below is a visual representation of where each cuisine is lo
 ### Limitations
 - The dataset is limited to recipes available on Food.com, over an 18-year period. The data was crawled and there have been no updates, meaning it is only current to a certain date.
 
+- The `tags` column is limited to those chosen by the contributors, it was curious that `dinner` was not a tag, but `dinner-party` was.
+
+- The WW Smart Points were not verified with other websites which report the scores.
 
 ### Conclusion
 The one recipe to rule them all:
-
-
+- Conditions:
+    - 5-star recipe
+    - Meal type: `Lunch`
+    - Cuisine: `Cajun`
+- Result: [Cajun Fried Chicken Strips](https://www.food.com/recipe/cajun-fried-chicken-strips-171545
+)
 
 ## Future Research
 - __Longitudinal: Nutritional Value and Recipe Rating Evolution__
@@ -389,7 +431,6 @@ The one recipe to rule them all:
 - __Regional Recipe Investigation__
 
     Since cuisines for `American, Asian, European` were removed, can investigate these broad cuisines more closely.
-
 
 ## References
 
