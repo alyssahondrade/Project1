@@ -154,11 +154,11 @@ The flowchart below summarises the process.
     - Add columns for the derived meal or cuisine value.
 
 5. Convert the `nutrition` column to nutritional values.
-    - The list in the column corresponds to the following [Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition):
+    - The list in the column corresponds to the following [[Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/discussion/121778?select=RAW_recipes.csv&search=nutrition)]:
 
         `calories (#), total fat (PDV), sugar (PDV), sodium (PDV) , protein (PDV), saturated fat, carbohydrates (PDV)`.
       
-    - The conversion units is based on a 2,000-calorie diet [Source](http://krupp.wcc.hawaii.edu/biol100l/nutrition/dailyval.pdf):
+    - The conversion units is based on a 2,000-calorie diet [[Source](http://krupp.wcc.hawaii.edu/biol100l/nutrition/dailyval.pdf)]:
         - Total fat = 65g
         - Sugar = 50g
         - Sodium = 2400mg (2.4g)
@@ -186,7 +186,7 @@ The flowchart below summarises the process.
 
         `iqr, lower_bounds, upper_bounds`
 
-    - Explore outliers in the `PDV` columns, no need to remove these values as the PDV is for a single serving [Source](https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label).
+    - Explore outliers in the `PDV` columns, no need to remove these values as the PDV is for a single serving [[Source](https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label)].
     - Explore outliers in the `minutes` column, and remove:
         - Recipes with `minutes` greater than the calculated upper bounds, and
         - Recipes with `0` minutes
