@@ -259,6 +259,16 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 - Lunch has the healthiest percentage of recipes, as well as the lowest average WW Smart Points.
 - Probably a better question is what is the most used ingredient for each meal. (Table below)
 
+- Plots explanation (trio)
+    - Explain gist of the plot:
+        - These are binned values
+        - The y-axis is the rating
+        - The size of the bubbles denote the protein content
+    - Saturated fat
+        - High saturated fat content for breakfasts with relatively low WW Smart Points
+        - Interestingly, saturated fat content decreases slightly as the points increase, towards the more relatively unhealthy recipes.
+        - No apparent correlation between rating an
+
 #### Question 3 - Which cuisine has the healthiest recipes?
 - Cajun cuisine has the healthiest recipes, both in terms of the average WW Smart Points, and the recipe of healthy recipes submitted.
 
