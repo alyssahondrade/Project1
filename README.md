@@ -254,6 +254,9 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 ### Results
 #### Question 1 - Are more popular/higher-rated recipes healthier? What is the health rating of the highest-rated recipes?
 - No correlation between health rating and recipe popularity.
+![Question 1 - Distribution of 5-star Recipes](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%201%20-%20Distribution%20of%205-star%20Recipes.png)
+
+![Question 1 - Healthiest Recipes](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%201%20-%20Healthiest%20Recipes.png)
 
 #### Question 2 - What meal type (i.e., breakfast, lunch, or dinner) have the healthiest/unhealthiest (percentage) recipes? What is the most popular ingredient for each meal?
 - Lunch has the healthiest percentage of recipes, as well as the lowest average WW Smart Points.
@@ -269,11 +272,27 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
         - Interestingly, saturated fat content decreases slightly as the points increase, towards the more relatively unhealthy recipes.
         - No apparent correlation between rating an
 
+
+![Question 2 - WW Smart Points & Calories](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20WW%20Smart%20Points%20%26%20Calories.png)
+
+![Question 2 - WW Smart Points & Saturated Fat](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20WW%20Smart%20Points%20%26%20sat_fat_g.png)
+
+![Question 2 - WW Smart Points & Sugar](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20WW%20Smart%20Points%20%26%20sugar_g.png)
+
+
+
+![Question 2 - Percentage of Healthy Recipes per Meal](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20Percentage%20of%20Healthy%20Recipes%20per%20Meal%20Type.png)
+
+![Question 2 - Most Popular Ingredient](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20Most%20Popular%20Ingredient.png)
+
 #### Question 3 - Which cuisine has the healthiest recipes?
 - Cajun cuisine has the healthiest recipes, both in terms of the average WW Smart Points, and the recipe of healthy recipes submitted.
 ![Question 3 - Number of Recipes per Cuisine](https://github.com/alyssahondrade/Project1/assets/129482049/959299df-2a65-49bf-aa80-fdbc49c31c5a)
-![Question 3 - Cuisine Map](https://github.com/alyssahondrade/Project1/assets/129482049/c09ea6e9-8daa-4e44-ab98-7a9b62d334e6)
+
 ![Question 3 - Percentage of Healthy Recipes per Cuisine](https://github.com/alyssahondrade/Project1/assets/129482049/3791cd47-9f07-437c-acc4-0d8376d61a40)
+
+![Question 3 - Cuisine Map](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%203%20-%20Cuisine%20Map.jpg)
+
 
 ### Limitations
 
