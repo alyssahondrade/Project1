@@ -34,6 +34,14 @@ The project will investigate recipe popularity, meal types, and cuisines, and wi
 
 ### Repository Structure
 
+- `Images/` subdirectory contains the output figures as well as the flowchart images.
+- `Output/` subdirectory contains the cleaned data, as a csv, for input to `recipe_exploration.ipynb`
+- `Resources/` subdirectory contains the raw datasets, and the following subdirectories:
+    - `Resources/01_recipe_IDs` contains the first Spoonacular API requests, containing recipe IDs.
+    - `Resources/02_raw_data` contains the second Spoonacular API requests, containing raw recipe information data.
+    - `Resources/03_simplified_data` contains the parsed data.
+    - `Resources/04_complex_test` contains the extra data requested, given recipe IDs which had missing information.
+
 ### Dataset
 -  [Kaggle - Food.com Recipes and Interactions](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?)
 
