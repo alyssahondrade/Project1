@@ -252,7 +252,10 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 ## Analysis
 
 ### Results
-#### Question 1 - Are more popular/higher-rated recipes healthier? What is the health rating of the highest-rated recipes?
+#### Question 1
+
+__Are more popular/higher-rated recipes healthier? What is the health rating of the highest-rated recipes?__
+
 There is no apparent correlation between health rating and recipe popularity, this is denoted in the figure below.
 
 If the health rating increased with popularity, the plot would be right-skewed, as the majority of the points would have a lower WW Smart Points. This figure is normally-shaped, with a peak in the range of -4 to 6 points.
@@ -302,23 +305,39 @@ The figure below demonstrates the differences in calories across the meal types.
 ![Question 2 - WW Smart Points & Calories](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20WW%20Smart%20Points%20%26%20Calories.png)
 
 __What is the most popular ingredient for each meal?__
+
 This question has been interpreted as what is the most used ingredient for each meal. The table below shows the top 3 ingredients, and its percentage of use per meal type.
+- For "Breakfast", "Eggs" is used in 67% of recipes, followed by "Butter" then "Baking Powder".
+- For "Lunch", "Salt" is used in 37% of recipes, followed by "Onion" then "Olive Oil".
+- For "Dinner", "Salt" is also the most used ingredient, followed by "Olive Oil" then "Garlic Cloves".
+
+A more interesting analysis for this would be to identify the most used fruit, vegetable, protein, etc., per food group. However, a machine learning algorithm is required to classify the ingredients to each category - a topic for future research to extend this project.
 
 ![Question 2 - Most Popular Ingredient](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20Most%20Popular%20Ingredient.png)
 
 ---
 
 #### Question 3 - Which cuisine has the healthiest recipes?
-- Cajun cuisine has the healthiest recipes, both in terms of the average WW Smart Points, and the recipe of healthy recipes submitted.
+
+The figure below denotes the count of recipes per cuisine. This is important to keep in mind when the cuisines are ranked, to identify the percentages healthy recipes per cuisine. The weighting will be significant for cuisines with less recipes in the database, such as: `Thai and Vietnamese`.
+
 ![Question 3 - Number of Recipes per Cuisine](https://github.com/alyssahondrade/Project1/assets/129482049/959299df-2a65-49bf-aa80-fdbc49c31c5a)
+
+The figure below shows a plot of the average WW Smart Points for each cuisine. As with the meal type plot previously, this bar chart is organised by increasing percentages. This is because it is visually easier to see changes in the heights of the bar, compared to reading percentage values. `Cajun` cuisine has the healthiest recipes (followed by `Japanese` cuisine), both in terms of the average WW Smart Points, and the percentageof healthy recipes submitted.
 
 ![Question 3 - Percentage of Healthy Recipes per Cuisine](https://github.com/alyssahondrade/Project1/assets/129482049/3791cd47-9f07-437c-acc4-0d8376d61a40)
 
+
+Finally, the figure below is a visual representation of where each cuisine is located around the world.
+- The size of the bubble represents the average WW Smart Point, meaning the bigger the bubble the less healthy recipes tend to be.
+- The colour of the bubble represents the average rating, meaning the darker the colour, the higher the average rating.
+
 ![Question 3 - Cuisine Map](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%203%20-%20Cuisine%20Map.jpg)
 
-
 ### Limitations
+- The dataset is limited to recipes available on Food.com, over an 18-year period. The data was crawled and there have been no updates, meaning it is only current to a certain date.
 
+- 
 
 ## Future Research
 - __Longitudinal: Nutritional Value and Recipe Rating Evolution__
