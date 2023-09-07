@@ -313,6 +313,8 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 - [] Python function documentation example [https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
 
+- [] Nested dictionary to multiindex dataframe where dictionary keys are column labels [https://stackoverflow.com/questions/24988131/nested-dictionary-to-multiindex-dataframe-where-dictionary-keys-are-column-label](https://stackoverflow.com/questions/24988131/nested-dictionary-to-multiindex-dataframe-where-dictionary-keys-are-column-label)
+
 ### Data Visualisation
 - [] Matplotlib - Iterate Subplot Axis Array through Single List [https://stackoverflow.com/questions/20288842/matplotlib-iterate-subplot-axis-array-through-single-list](https://stackoverflow.com/questions/20288842/matplotlib-iterate-subplot-axis-array-through-single-list)
 
