@@ -286,7 +286,7 @@ It is important to note that the location of the datapoints for all three figure
     - For the 5-star healthy recipes, these could have been posted on websites that are health-focused, hence people would rate healthy AND delicious recipes very high.
     - For the 5-star unhealthy recipes, these are likely a result from people who rated the recipe very high for taste, rather than how healthy the recipe is.
 
-The figure below demonstrates that across all three meal types, there tends to be a higher protein for healthier recipes. As expected, the protein content decreases as the recipe becomes less healthy. This is in line with the equation used to calculate the WW Smart Point.
+The figure below demonstrates that across all three meal types, there tends to be a higher protein for healthier recipes. As expected, the protein content decreases as the recipe becomes less healthy. It is also reasonable that the sugar content increases as the recipe becomes less healthy. This is in line with the equation used to calculate the WW Smart Point, with a positive factor for sugar, and a negative factor for protein.
 
 ![Question 2 - WW Smart Points & Sugar](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20WW%20Smart%20Points%20%26%20sugar_g.png)
 
@@ -297,37 +297,14 @@ The figure below demonstrates the differences in how saturated fat is distribute
 
 ![Question 2 - WW Smart Points & Saturated Fat](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20WW%20Smart%20Points%20%26%20sat_fat_g.png)
 
-![Question 2 - WW Smart Points & Calories](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20WW%20Smart%20Points%20%26%20Calories.png)
+The figure below demonstrates the differences in calories across the meal types. For all three, it is apparent that the less healthy recipes tend to have higher caloric content. However, this is most evident for "Breakfast" and "Dinner". Calories are not inherently a "poor" measure of health, in that, a high-calorie meal is not "unhealthy" or "bad". It is more important to understand when the high-calorie meal is eaten, as extra calories consumed without using up the energy results in it being stored as fat [[Source](https://www.chubb.com/hk-en/chubblifebalance/biggest-meal.html#:~:text=Not%20only%20does%20a%20big,will%20be%20stored%20as%20fat.)]. Hence, this figure demonstrates that healthy "Dinner" recipes tend to have the highest calorie content, which could be contrary to weight loss despite eating "healthy".
 
+![Question 2 - WW Smart Points & Calories](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20WW%20Smart%20Points%20%26%20Calories.png)
 
 __What is the most popular ingredient for each meal?__
 This question has been interpreted as what is the most used ingredient for each meal. The table below shows the top 3 ingredients, and its percentage of use per meal type.
 
 ![Question 2 - Most Popular Ingredient](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20Most%20Popular%20Ingredient.png)
-
-- Probably a better question is what is the most used ingredient for each meal. (Table below)
-
-- Plots explanation (trio)
-    - Explain gist of the plot:
-        - These are binned values
-        - The y-axis is the rating
-        - The size of the bubbles denote the protein content
-    - Saturated fat
-        - High saturated fat content for breakfasts with relatively low WW Smart Points
-        - Interestingly, saturated fat content decreases slightly as the points increase, towards the more relatively unhealthy recipes.
-        - No apparent correlation between rating an
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 
