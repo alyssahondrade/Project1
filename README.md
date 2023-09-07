@@ -33,6 +33,16 @@ The goal of the project is to compare recipes from two popular recipe websites, 
 The project will investigate recipe popularity, meal types, and cuisines, and will be conducted as per the data analytics paradigm.
 
 ### Repository Structure
+__Code Files__
+
+- [`recipe_exploration.ipynb`](https://github.com/alyssahondrade/Project1/blob/main/recipe_exploration.ipynb) is the notebook for the data exploration and collection.
+
+- [`recipe_visualisation.ipynb`](https://github.com/alyssahondrade/Project1/blob/main/recipe_visualisations.ipynb) is the notebook for the data analysis and visualisation.
+
+- [`functions.ipynb`](https://github.com/alyssahondrade/Project1/blob/main/functions.ipynb) 
+
+__Directories__
+
 - `Images/` subdirectory contains the output figures as well as the flowchart images.
 - `Output/` subdirectory contains the cleaned data, as a csv, for input to `recipe_exploration.ipynb`
 - `Resources/` subdirectory contains the raw datasets, and the following subdirectories:
