@@ -13,6 +13,7 @@ Github Repository at: [https://github.com/alyssahondrade/Project1.git](https://g
     1. [Fields](https://github.com/alyssahondrade/Project1#fields)
     2. [Food.com](https://github.com/alyssahondrade/Project1/tree/main#foodcom)
     3. [Spoonacular API](https://github.com/alyssahondrade/Project1/tree/main#spoonacular-api)
+    4. [Data Visualisation](https://github.com/alyssahondrade/Project1/tree/main#data-visualisation)
 4. [Decision Points](https://github.com/alyssahondrade/Project1#decision-points)
 5. [Analysis](https://github.com/alyssahondrade/Project1#analysis)
     1. [Results](https://github.com/alyssahondrade/Project1/tree/main#results)
@@ -454,39 +455,41 @@ The one recipe to rule them all:
 - [4] How to Understand and Use the Nutrition Facts Label [https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label](https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label)
 
 ### Python Coding
-- [] List all Subdirectories in a Directory Python [https://www.techiedelight.com/list-all-subdirectories-in-directory-python/](https://www.techiedelight.com/list-all-subdirectories-in-directory-python/)
+- [5] List all Subdirectories in a Directory Python [https://www.techiedelight.com/list-all-subdirectories-in-directory-python/](https://www.techiedelight.com/list-all-subdirectories-in-directory-python/)
 
-- [] Iterate over Files in a Directory [https://www.geeksforgeeks.org/how-to-iterate-over-files-in-directory-using-python/](https://www.geeksforgeeks.org/how-to-iterate-over-files-in-directory-using-python/)
+- [6] Iterate over Files in a Directory [https://www.geeksforgeeks.org/how-to-iterate-over-files-in-directory-using-python/](https://www.geeksforgeeks.org/how-to-iterate-over-files-in-directory-using-python/)
 
-- [] Python `os direntry` name attribute [https://www.geeksforgeeks.org/python-os-direntry-name-attribute/](https://www.geeksforgeeks.org/python-os-direntry-name-attribute/)
+- [7] Python `os direntry` name attribute [https://www.geeksforgeeks.org/python-os-direntry-name-attribute/](https://www.geeksforgeeks.org/python-os-direntry-name-attribute/)
 
-- [] Python string `find()` with examples [https://sparkbyexamples.com/python/python-string-find-with-examples/](https://sparkbyexamples.com/python/python-string-find-with-examples/)
+- [8] Python string `find()` with examples [https://sparkbyexamples.com/python/python-string-find-with-examples/](https://sparkbyexamples.com/python/python-string-find-with-examples/)
 
-- [] Print common elements between two lists [https://www.geeksforgeeks.org/python-print-common-elements-two-lists/](https://www.geeksforgeeks.org/python-print-common-elements-two-lists/)
+- [9] Print common elements between two lists [https://www.geeksforgeeks.org/python-print-common-elements-two-lists/](https://www.geeksforgeeks.org/python-print-common-elements-two-lists/)
 
-- [] How to Import Functions from Another Jupyter Notebook [https://saturncloud.io/blog/how-to-import-functions-from-another-jupyter-notebook/](https://saturncloud.io/blog/how-to-import-functions-from-another-jupyter-notebook/)
+- [10] How to Import Functions from Another Jupyter Notebook [https://saturncloud.io/blog/how-to-import-functions-from-another-jupyter-notebook/](https://saturncloud.io/blog/how-to-import-functions-from-another-jupyter-notebook/)
 
-- [] Python function documentation example [https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+- [11] Python function documentation example [https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
 
-- [] Nested dictionary to multiindex dataframe where dictionary keys are column labels [https://stackoverflow.com/questions/24988131/nested-dictionary-to-multiindex-dataframe-where-dictionary-keys-are-column-label](https://stackoverflow.com/questions/24988131/nested-dictionary-to-multiindex-dataframe-where-dictionary-keys-are-column-label)
+- [12] Nested dictionary to multiindex dataframe where dictionary keys are column labels [https://stackoverflow.com/questions/24988131/nested-dictionary-to-multiindex-dataframe-where-dictionary-keys-are-column-label](https://stackoverflow.com/questions/24988131/nested-dictionary-to-multiindex-dataframe-where-dictionary-keys-are-column-label)
 
 ### Data Visualisation
-- [] Matplotlib - Iterate Subplot Axis Array through Single List [https://stackoverflow.com/questions/20288842/matplotlib-iterate-subplot-axis-array-through-single-list](https://stackoverflow.com/questions/20288842/matplotlib-iterate-subplot-axis-array-through-single-list)
+- [13] Matplotlib - Iterate Subplot Axis Array through Single List [https://stackoverflow.com/questions/20288842/matplotlib-iterate-subplot-axis-array-through-single-list](https://stackoverflow.com/questions/20288842/matplotlib-iterate-subplot-axis-array-through-single-list)
 
-- [] How to set spacing between subplots in Matplotlib [https://www.geeksforgeeks.org/how-to-set-the-spacing-between-subplots-in-matplotlib-in-python/](https://www.geeksforgeeks.org/how-to-set-the-spacing-between-subplots-in-matplotlib-in-python/)
+- [14] How to set spacing between subplots in Matplotlib [https://www.geeksforgeeks.org/how-to-set-the-spacing-between-subplots-in-matplotlib-in-python/](https://www.geeksforgeeks.org/how-to-set-the-spacing-between-subplots-in-matplotlib-in-python/)
 
-- [] plt.show shows full graph but savefig is cropping the image [https://stackoverflow.com/questions/37427362/plt-show-shows-full-graph-but-savefig-is-cropping-the-image](https://stackoverflow.com/questions/37427362/plt-show-shows-full-graph-but-savefig-is-cropping-the-image)
+- [15] plt.show shows full graph but savefig is cropping the image [https://stackoverflow.com/questions/37427362/plt-show-shows-full-graph-but-savefig-is-cropping-the-image](https://stackoverflow.com/questions/37427362/plt-show-shows-full-graph-but-savefig-is-cropping-the-image)
 
-- [] Save a pandas dataframe as an image (module: dataframe-image) [https://predictivehacks.com/?all-tips=save-a-pandas-dataframe-as-an-image](https://predictivehacks.com/?all-tips=save-a-pandas-dataframe-as-an-image)
+- [16] Save a pandas dataframe as an image (module: dataframe-image) [https://predictivehacks.com/?all-tips=save-a-pandas-dataframe-as-an-image](https://predictivehacks.com/?all-tips=save-a-pandas-dataframe-as-an-image)
 
-- [] Bubble Plots in Python [https://www.askpython.com/python/examples/bubble-plots-in-python](https://www.askpython.com/python/examples/bubble-plots-in-python)
+- [17] Bubble Plots in Python [https://www.askpython.com/python/examples/bubble-plots-in-python](https://www.askpython.com/python/examples/bubble-plots-in-python)
 
-- [] Making a Heatmap from Pandas DataFrame [https://stackoverflow.com/questions/12286607/making-heatmap-from-pandas-dataframe](https://stackoverflow.com/questions/12286607/making-heatmap-from-pandas-dataframe)
+- [18] Making a Heatmap from Pandas DataFrame [https://stackoverflow.com/questions/12286607/making-heatmap-from-pandas-dataframe](https://stackoverflow.com/questions/12286607/making-heatmap-from-pandas-dataframe)
 
-- [] Change Space between Bars when drawing multiple Barplots in Pandas [https://stackoverflow.com/questions/34674558/how-to-change-space-between-bars-when-drawing-multiple-barplots-in-pandas](https://stackoverflow.com/questions/34674558/how-to-change-space-between-bars-when-drawing-multiple-barplots-in-pandas)
+- [19] Change Space between Bars when drawing multiple Barplots in Pandas [https://stackoverflow.com/questions/34674558/how-to-change-space-between-bars-when-drawing-multiple-barplots-in-pandas](https://stackoverflow.com/questions/34674558/how-to-change-space-between-bars-when-drawing-multiple-barplots-in-pandas)
 
-- [] Geoapify's Geocoding API [https://www.geoapify.com/geocoding-api](https://www.geoapify.com/geocoding-api)
+- [20] Geoapify's Geocoding API [https://www.geoapify.com/geocoding-api](https://www.geoapify.com/geocoding-api)
 
-- [] Holoviews Tiles [https://holoviews.org/reference/elements/bokeh/Tiles.html](https://holoviews.org/reference/elements/bokeh/Tiles.html)
+- [21] Holoviews Tiles [https://holoviews.org/reference/elements/bokeh/Tiles.html](https://holoviews.org/reference/elements/bokeh/Tiles.html)
 
-- [] Setting Different Bar Color in Matplotlib [https://www.tutorialspoint.com/setting-different-bar-color-in-matplotlib](https://www.tutorialspoint.com/setting-different-bar-color-in-matplotlib)
+- [22] Setting Different Bar Color in Matplotlib [https://www.tutorialspoint.com/setting-different-bar-color-in-matplotlib](https://www.tutorialspoint.com/setting-different-bar-color-in-matplotlib)
+
+- [23] A complete guide to bar charts [https://chartio.com/learn/charts/bar-chart-complete-guide/](https://chartio.com/learn/charts/bar-chart-complete-guide/)
