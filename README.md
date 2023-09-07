@@ -272,7 +272,6 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 #### Question 3 - Which cuisine has the healthiest recipes?
 - Cajun cuisine has the healthiest recipes, both in terms of the average WW Smart Points, and the recipe of healthy recipes submitted.
 
-![Number of Recipes per Cuisine](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%203%20-%20Number%20of%20Recipes%20per%20Cuisine.png)
 ### Limitations
 
 
