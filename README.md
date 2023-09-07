@@ -252,15 +252,15 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 ## Analysis
 
 ### Results
-
 #### Question 1 - Are more popular/higher-rated recipes healthier? What is the health rating of the highest-rated recipes?
-
+- No correlation between health rating and recipe popularity.
 
 #### Question 2 - What meal type (i.e., breakfast, lunch, or dinner) have the healthiest/unhealthiest (percentage) recipes? What is the most popular ingredient for each meal?
-
+- Lunch has the healthiest percentage of recipes, as well as the lowest average WW Smart Points.
+- Probably a better question is what is the most used ingredient for each meal. (Table below)
 
 #### Question 3 - Which cuisine has the healthiest recipes?
-
+- Cajun cuisine has the healthiest recipes, both in terms of the average WW Smart Points, and the recipe of healthy recipes submitted.
 
 ### Limitations
 
