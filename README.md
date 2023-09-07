@@ -203,6 +203,15 @@ The flowchart below summarises the process.
 12. 
 
 ### Spoonacular API
+
+The diagram below summarises the API testing workflow.
+
+![API Testing](https://github.com/alyssahondrade/Project1/blob/main/Images/spoonacular_apiTesting.png)
+
+The diagram below summarises the Spoonacular cleaning process until the point where it was decided it was no longer feasible to continue cleaning the dataset.
+
+![API Data Collection](https://github.com/alyssahondrade/Project1/blob/main/Images/spoonacular_datacollection.png)
+
 1. API Testing
     - Test types and outcomes:
         - `Complex Search` and `Recipe Information`, returns the same recipes each time.
