@@ -253,13 +253,26 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 ### Results
 #### Question 1 - Are more popular/higher-rated recipes healthier? What is the health rating of the highest-rated recipes?
-- No correlation between health rating and recipe popularity.
+There is no apparent correlation between health rating and recipe popularity, this is denoted in the figure below.
+
+If the health rating increased with popularity, the plot would be right-skewed, as the majority of the points would have a lower WW Smart Points. This figure is normally-shaped, with a peak in the range of -4 to 6 points.
+
 ![Question 1 - Distribution of 5-star Recipes](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%201%20-%20Distribution%20of%205-star%20Recipes.png)
 
+The figure below shows the table of results for the top 10 recipes with a 5-star rating, sorted by the WW Smart Point. This shows the healthiest recipes with the highest ratings.
 ![Question 1 - Healthiest Recipes](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%201%20-%20Healthiest%20Recipes.png)
 
 #### Question 2 - What meal type (i.e., breakfast, lunch, or dinner) have the healthiest/unhealthiest (percentage) recipes? What is the most popular ingredient for each meal?
-- Lunch has the healthiest percentage of recipes, as well as the lowest average WW Smart Points.
+
+The figure below shows the percentage of healthy recipes per meal. The bar plot is sorted, from left to right, by the percentage of healthy recipes for a given meal type. This was done delibately, as it is easier to understand the bar height visually, as compared to understanding the order of percentages.
+
+The figure demonstrates that "Lunch" has the healthiest percentage of recipes, as well as the lowest average WW Smart Points. It is important to note that both "Breakfast" and "Lunch" have the same average WW Smart Points. This means, that "Breakfast" and "Lunch" recipes tend to be healthier compared to "Dinner" recipes.
+
+![Question 2 - Percentage of Healthy Recipes per Meal](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20Percentage%20of%20Healthy%20Recipes%20per%20Meal%20Type.png)
+
+
+
+
 - Probably a better question is what is the most used ingredient for each meal. (Table below)
 
 - Plots explanation (trio)
@@ -281,7 +294,7 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 
 
 
-![Question 2 - Percentage of Healthy Recipes per Meal](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20Percentage%20of%20Healthy%20Recipes%20per%20Meal%20Type.png)
+
 
 ![Question 2 - Most Popular Ingredient](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20Most%20Popular%20Ingredient.png)
 
