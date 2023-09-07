@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2023-09-07T04:41:04.711Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="XXlFBBWzRHrLnkQyF5kE" version="21.6.8" type="device">
+  <diagram name="Page-1" id="gVSUHlGTG-4Eg5-McVc7">
+    <mxGraphModel dx="-427" dy="1214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N8zH-SGiHMXlSYolH_b--1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Trebuchet MS;" edge="1" parent="1" source="N8zH-SGiHMXlSYolH_b--2" target="N8zH-SGiHMXlSYolH_b--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--2" value="API Testing" style="whiteSpace=wrap;html=1;fontFamily=Trebuchet MS;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Trebuchet MS;" edge="1" parent="1" source="N8zH-SGiHMXlSYolH_b--7" target="N8zH-SGiHMXlSYolH_b--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Trebuchet MS;" edge="1" parent="1" source="N8zH-SGiHMXlSYolH_b--7" target="N8zH-SGiHMXlSYolH_b--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Trebuchet MS;" edge="1" parent="1" source="N8zH-SGiHMXlSYolH_b--7" target="N8zH-SGiHMXlSYolH_b--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Trebuchet MS;" edge="1" parent="1" source="N8zH-SGiHMXlSYolH_b--7" target="N8zH-SGiHMXlSYolH_b--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--7" value="1. Get &lt;b&gt;RECIPE IDs&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontFamily=Trebuchet MS;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Trebuchet MS;" edge="1" parent="1" source="N8zH-SGiHMXlSYolH_b--10" target="N8zH-SGiHMXlSYolH_b--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Trebuchet MS;" edge="1" parent="1" source="N8zH-SGiHMXlSYolH_b--10" target="N8zH-SGiHMXlSYolH_b--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--10" value="2. Get &lt;b&gt;RECIPE INFO&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontFamily=Trebuchet MS;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--11" value="Export to CSV&lt;br&gt;(Raw Data #1)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Trebuchet MS;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Trebuchet MS;" edge="1" parent="1" source="N8zH-SGiHMXlSYolH_b--7" target="N8zH-SGiHMXlSYolH_b--11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="360" as="sourcePoint" />
+            <mxPoint x="1290" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--13" value="Export to CSV&lt;br&gt;(Raw Data #2)" style="whiteSpace=wrap;html=1;fontFamily=Trebuchet MS;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Trebuchet MS;" edge="1" parent="1" source="N8zH-SGiHMXlSYolH_b--15" target="N8zH-SGiHMXlSYolH_b--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--15" value="3. Parse &lt;b&gt;INFO&lt;/b&gt;&amp;nbsp;while API is active" style="whiteSpace=wrap;html=1;fontFamily=Trebuchet MS;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--16" value="Export to CSV&lt;br&gt;(Simplified Data)" style="whiteSpace=wrap;html=1;fontFamily=Trebuchet MS;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--17" value="&lt;br&gt;/Output/1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontFamily=Trebuchet MS;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="280" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--18" value="&lt;br&gt;/Output/2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontFamily=Trebuchet MS;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="380" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8zH-SGiHMXlSYolH_b--19" value="&lt;br&gt;/Output/3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontFamily=Trebuchet MS;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="480" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

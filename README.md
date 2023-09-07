@@ -272,6 +272,7 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 #### Question 3 - Which cuisine has the healthiest recipes?
 - Cajun cuisine has the healthiest recipes, both in terms of the average WW Smart Points, and the recipe of healthy recipes submitted.
 
+![Number of Recipes per Cuisine](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%203%20-%20Number%20of%20Recipes%20per%20Cuisine.png)
 ### Limitations
 
 
@@ -329,6 +330,10 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 - [] Matplotlib - Iterate Subplot Axis Array through Single List [https://stackoverflow.com/questions/20288842/matplotlib-iterate-subplot-axis-array-through-single-list](https://stackoverflow.com/questions/20288842/matplotlib-iterate-subplot-axis-array-through-single-list)
 
 - [] How to set spacing between subplots in Matplotlib [https://www.geeksforgeeks.org/how-to-set-the-spacing-between-subplots-in-matplotlib-in-python/](https://www.geeksforgeeks.org/how-to-set-the-spacing-between-subplots-in-matplotlib-in-python/)
+
+- [] plt.show shows full graph but savefig is cropping the image [https://stackoverflow.com/questions/37427362/plt-show-shows-full-graph-but-savefig-is-cropping-the-image](https://stackoverflow.com/questions/37427362/plt-show-shows-full-graph-but-savefig-is-cropping-the-image)
+
+- [] Save a pandas dataframe as an image (module: dataframe-image) [https://predictivehacks.com/?all-tips=save-a-pandas-dataframe-as-an-image](https://predictivehacks.com/?all-tips=save-a-pandas-dataframe-as-an-image)
 
 - [] Bubble Plots in Python [https://www.askpython.com/python/examples/bubble-plots-in-python](https://www.askpython.com/python/examples/bubble-plots-in-python)
 
