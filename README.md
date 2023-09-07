@@ -11,13 +11,18 @@ Github Repository at: [https://github.com/alyssahondrade/Project1.git](https://g
 2. [Scope](https://github.com/alyssahondrade/Project1#scope)
 3. [Approach](https://github.com/alyssahondrade/Project1#approach)
     1. [Fields](https://github.com/alyssahondrade/Project1#fields)
-    2.  
+    2. [Food.com](https://github.com/alyssahondrade/Project1/tree/main#foodcom)
+    3. [Spoonacular API](https://github.com/alyssahondrade/Project1/tree/main#spoonacular-api)
 4. [Decision Points](https://github.com/alyssahondrade/Project1#decision-points)
 5. [Analysis](https://github.com/alyssahondrade/Project1#analysis)
     1. [Results](https://github.com/alyssahondrade/Project1/tree/main#results)
     2. [Limitations](https://github.com/alyssahondrade/Project1/tree/main#limitations)
+    3. [Conclusion](https://github.com/alyssahondrade/Project1/tree/main#conclusion)
 6. [Future Research](https://github.com/alyssahondrade/Project1#future-research)
 7. [References](https://github.com/alyssahondrade/Project1#references)
+   1. [Research Concept](https://github.com/alyssahondrade/Project1/tree/main#research-concept)
+   2. [Python Coding](https://github.com/alyssahondrade/Project1/tree/main#python-coding)
+   3. [Data Visualisation](https://github.com/alyssahondrade/Project1/tree/main#data-visualisation)
 
 ## Introduction
 ### Goal
@@ -359,7 +364,7 @@ The one recipe to rule them all:
 ## Future Research
 - __Longitudinal: Nutritional Value and Recipe Rating Evolution__
 
-    Determine how recipe ratings and nutritional values change over time. The Food.com dataset has the date of each review, as well as the date the recipe is submitted. For Spoonacular, as the source URL for each recipe is provided, it is possible to determine the exact date using a few methods, such as Google's "inurl" functionality.
+    Determine how recipe ratings and nutritional values change over time. The Food.com dataset has the date of each review, as well as the date the recipe is submitted. For Spoonacular, as the source URL for each recipe is provided, it is possible to determine the exact date using a few methods, such as Google's "inurl" functionality [[Source](https://www.alphr.com/find-when-website-published-launched/)].
 
 - __Ingredients Classification: Food Group Percentage as Measure of Healthiness__
 
@@ -426,6 +431,3 @@ The one recipe to rule them all:
 - [] Holoviews Tiles [https://holoviews.org/reference/elements/bokeh/Tiles.html](https://holoviews.org/reference/elements/bokeh/Tiles.html)
 
 - [] Setting Different Bar Color in Matplotlib [https://www.tutorialspoint.com/setting-different-bar-color-in-matplotlib](https://www.tutorialspoint.com/setting-different-bar-color-in-matplotlib)
-
-### Future Research
-- [] How To Find When A Website Was First Published Or Launched [https://www.alphr.com/find-when-website-published-launched/](https://www.alphr.com/find-when-website-published-launched/)
