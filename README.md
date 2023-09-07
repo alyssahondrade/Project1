@@ -260,9 +260,13 @@ If the health rating increased with popularity, the plot would be right-skewed, 
 ![Question 1 - Distribution of 5-star Recipes](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%201%20-%20Distribution%20of%205-star%20Recipes.png)
 
 The figure below shows the table of results for the top 10 recipes with a 5-star rating, sorted by the WW Smart Point. This shows the healthiest recipes with the highest ratings.
+
 ![Question 1 - Healthiest Recipes](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%201%20-%20Healthiest%20Recipes.png)
 
-#### Question 2 - What meal type (i.e., breakfast, lunch, or dinner) have the healthiest/unhealthiest (percentage) recipes? What is the most popular ingredient for each meal?
+---
+
+#### Question 2
+__What meal type (i.e., breakfast, lunch, or dinner) have the healthiest/unhealthiest (percentage) recipes?__
 
 The figure below shows the percentage of healthy recipes per meal. The bar plot is sorted, from left to right, by the percentage of healthy recipes for a given meal type. This was done delibately, as it is easier to understand the bar height visually, as compared to understanding the order of percentages.
 
@@ -270,8 +274,36 @@ The figure demonstrates that "Lunch" has the healthiest percentage of recipes, a
 
 ![Question 2 - Percentage of Healthy Recipes per Meal](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20Percentage%20of%20Healthy%20Recipes%20per%20Meal%20Type.png)
 
+The following three figures will explore this further, by analysing the nutritional values.
+
+To provide context, the WW Smart Points have been binned, to create a line-plot rate of change in the health rating, as opposed to a scatter plot that will plot each datapoint. The y-axis is the average rating, while the x-axis is the binned WW Smart Points range.
+- Instead of a line plot, a scatter plot was used to add an extra dimension of data: protein in grams. The bigger the size of the bubble, the greater the protein content.
+- A color bar is also used to add another dimension of data, in this case the nutritional value of interest. The colour purple denotes lower values, whilst the colour yellow denotes higher values.
+
+It is important to note that the location of the datapoints for all three figures are the same, it is the colour bar values that differ. Recall that the lower the WW Smart Point value, the healthier the recipe is.
+- For "Lunch", there appears to be a slightly negative trend in rating as the WW Smart Point value increases. This means that the popularity of the recipe decreases as it becomes less healthy.
+- For "Dinner", although there is a slightly positive trend, there is a decrease followed by an increase in popularity as the recipes traverse from healthiest to least healthy. This could be interpreted as: people are more likely to rate a recipe very high if it is very healthy or very unhealthy. There could be two factors explaining this:
+    - For the 5-star healthy recipes, these could have been posted on websites that are health-focused, hence people would rate healthy AND delicious recipes very high.
+    - For the 5-star unhealthy recipes, these are likely a result from people who rated the recipe very high for taste, rather than how healthy the recipe is.
+
+The figure below demonstrates that across all three meal types, there tends to be a higher protein for healthier recipes. As expected, the protein content decreases as the recipe becomes less healthy. This is in line with the equation used to calculate the WW Smart Point.
+
+![Question 2 - WW Smart Points & Sugar](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20WW%20Smart%20Points%20%26%20sugar_g.png)
+
+The figure below demonstrates the differences in how saturated fat is distributed across the meal types.
+- For "Breakfast", there tends to be a high saturated fat content for recipes considered "healthy", with the saturated fat decreasing as the health rating decreases (an increase in WW Smart Points).
+- For "Lunch", there is a pocket in the middle where the saturated fat contents fluctuates for 4 data points, before decreasing for 2 data points (purple), then increasing for the last (yellow). This somewhat follows the trend in "Breakfast", with the exception of the low saturated fat content for the healthiest recipes, and the final data point where there is a significant increase in saturated fat. This could be interpreted as: a limit exists in the increase of WW Smart Points and saturated fat, where recipes in the unhealthy end of the range take on a higher saturated fat, which also subsequently results in a decrease in recipe popularity.
+- For "Dinner", the pattern appears to be relatively middle-range saturated fat for healthier recipes (blue), followed by a decrease (purple), then a sharp spike to a high content (yellow), similar to the "Lunch" recipes.
+
+![Question 2 - WW Smart Points & Saturated Fat](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20WW%20Smart%20Points%20%26%20sat_fat_g.png)
+
+![Question 2 - WW Smart Points & Calories](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20WW%20Smart%20Points%20%26%20Calories.png)
 
 
+__What is the most popular ingredient for each meal?__
+This question has been interpreted as what is the most used ingredient for each meal. The table below shows the top 3 ingredients, and its percentage of use per meal type.
+
+![Question 2 - Most Popular Ingredient](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20Most%20Popular%20Ingredient.png)
 
 - Probably a better question is what is the most used ingredient for each meal. (Table below)
 
@@ -286,17 +318,18 @@ The figure demonstrates that "Lunch" has the healthiest percentage of recipes, a
         - No apparent correlation between rating an
 
 
-![Question 2 - WW Smart Points & Calories](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20WW%20Smart%20Points%20%26%20Calories.png)
-
-![Question 2 - WW Smart Points & Saturated Fat](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20WW%20Smart%20Points%20%26%20sat_fat_g.png)
-
-![Question 2 - WW Smart Points & Sugar](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20WW%20Smart%20Points%20%26%20sugar_g.png)
 
 
 
 
 
-![Question 2 - Most Popular Ingredient](https://github.com/alyssahondrade/Project1/blob/main/Images/Question%202%20-%20Most%20Popular%20Ingredient.png)
+
+
+
+
+
+
+---
 
 #### Question 3 - Which cuisine has the healthiest recipes?
 - Cajun cuisine has the healthiest recipes, both in terms of the average WW Smart Points, and the recipe of healthy recipes submitted.
