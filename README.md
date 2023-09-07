@@ -32,12 +32,11 @@ The project will investigate recipe popularity, meal types, and cuisines, and wi
 ### Dataset
 -  [Kaggle - Food.com Recipes and Interactions](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?)
 
-    The dataset consists of more than 180,000 recipes and over 700,000 recipe reviews over 18 years of user interactions and recipe submissions.
+    The dataset consists of more than 200K recipes and over 1M recipe reviews over 18 years of user interactions and recipe submissions.
     - `RAW_interactions.csv` available from [[Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_interactions.csv)]
     - `RAW_recipes.csv` available from [[Source](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_recipes.csv)]
 
 - [Spoonacular API](https://spoonacular.com/food-api)
-
 
 ## Scope
 ### Research Questions
@@ -92,6 +91,11 @@ Both datasets provide `Percent of Daily Values (PDV)`, which assumes a single se
 1. 
 
 ### Food.com
+
+The flowchart below summarises the process.
+
+![Data Cleaning Flowchart](https://github.com/alyssahondrade/Project1/blob/main/Images/data_cleaning_flowchart.png)
+
 1. Import the Food.com datasets as Pandas DataFrames:
 
     `RAW_recipes.csv` as `food_df`
@@ -337,7 +341,11 @@ Finally, the figure below is a visual representation of where each cuisine is lo
 ### Limitations
 - The dataset is limited to recipes available on Food.com, over an 18-year period. The data was crawled and there have been no updates, meaning it is only current to a certain date.
 
-- 
+
+### Conclusion
+The one recipe to rule them all:
+
+
 
 ## Future Research
 - __Longitudinal: Nutritional Value and Recipe Rating Evolution__
